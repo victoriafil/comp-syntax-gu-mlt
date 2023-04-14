@@ -1,30 +1,31 @@
-#sent_id = 1
-#sent = Qui sont-ils?
-1   Qui     _     PROPN    _    _    0    root     _    _
-2   sont    _   AUX _   _   1   cop _   _   
-3   -   _   PUNCT    _    _    2    punct    _    _    
-4   ils _   PRON    _   _   2   nsubj   _   _
-5   ?   _   PUNCT   _   _   1   punct   _   _
+# text = ent    id = 1
+# text = ent = Qui sont-ils?
+1	Qui	_	PROPN	_	_	0	root	_	_
+2	sont	_	AUX	_	_	1	cop	_	_
+3	-	_	PUNCT	_	_	2	punct	_	_
+4	ils	_	PRON	_	_	2	nsubj	_	_
+5	?	_	PUNCT	_	_	1	punct	_	_
 
-#sent_id = 2   
-#sent = On passe à proximité d’une ville avec deux minarets.
-1	On	_	PRON    _    _    2	nsubj	_	_
-2	passe	_	    _    _    0	root	_	_
+# text = ent    id = 2   
+# text = ent = On passe à proximité d’une ville avec deux minarets.
+1	On	_	PRON	_	_	2	nsubj	_	_
+2	passe	_	VERB	_	_	0	root	_	_
 3	à	_	ADP	_	_	7	case	_	_
-4	proximité	_	NOUN    _    _    3	fixed	_	_
+4	proximité	_	NOUN	_	_	3	fixed	_	_
 5	d’	_	ADP	_	_	3	fixed	_	_
-6	une	_	DET    _    _    7	det	_	_
-7	ville	_	NOUN    _    _    2	obl	_	_
+6	une	_	DET	_	_	7	det	_	_
+7	ville	_	NOUN	_	_	2	obl	_	_
 8	avec	_	ADP	_	_	10	case	_	_
 9	deux	_	NUM	_	_	10	nummod	_	_
-10	minarets	_	NOUN    _    _    7	nmod	_	_
+10	minarets	_	NOUN	_	_	7	nmod	_	_
 11	.	_	PUNCT	_	_	2	punct	_	_
 
-#sent_id = 3   
-#sent = Je n’étais qu’un garçon avec les chaussures couvertes de boue.
-1	Je	_	PRON    _    _    6	nsubj	_	_
-2	n’	_	ADV    _    _    6	advmod	_	_
-3	étais	_	AUX    _    _    6	cop	_	_
+
+# text = ent    id = 3   
+# text = ent = Je n’étais qu’un garçon avec les chaussures couvertes de boue.
+1	Je	_	PRON	_	_	6	nsubj	_	_
+2	n’	_	ADV	_	_	6	advmod	_	_
+3	étais	_	AUX	_	_	6	cop	_	_
 4	qu’	_	ADV	_	_	6	advmod	_	_
 5	un	_	DET	_	_	6	det	_	_
 6	garçon	_	NOUN	_	_	0	root	_	_
@@ -34,17 +35,18 @@
 10	couvertes	_	ADJ	_	_	9	amod	_	_
 11	de	_	ADP	_	_	12	case	_	_
 12	boue	_	NOUN	_	_	10	obl	_	_
-13	.	_	PUNCT	.	_	6	punct	_	_
+13	.	_	PUNCT	_	_	6	punct	_	_
 
-#sent_id = 4
-#sent = La police routière de Shenzhen a opté pour des pénalités inhabituelles dans le passé.
+
+# text = ent    id = 4
+# text = ent = La police routière de Shenzhen a opté pour des pénalités inhabituelles dans le passé.
 1	La	_	DET	_	_	2	det	_	_
 2	police	_	NOUN	_	_	7	nsubj	_	_
 3	routière	_	ADJ	_	_	2	amod	_	_
 4	de	_	ADP	_	_	5	case	_	_
 5	Shenzhen	_	PROPN	_	_	2	nmod	_	_
 6	a	_	AUX	_	_	7	aux:tense	_	_
-7	opté	_   VERB    _   _	0	root	_	_
+7	opté	_	VERB	_	_	0	root	_	_
 8	pour	_	ADP	_	_	10	case	_	_
 9	des	_	DET	_	_	10	det	_	_
 10	pénalités	_	NOUN	_	_	7	obl	_	_
@@ -54,15 +56,15 @@
 14	passé	_	NOUN	_	_	11	obl	_	_
 15	.	_	PUNCT	_	_	7	punct	_	_
 
-#sent_id = 5
-#sent = L'étude des volcans s'appelle la volcanologie, ou parfois vulcanologie.
+# text = ent    id = 5
+# text = ent = L'étude des volcans s'appelle la volcanologie, ou parfois vulcanologie.
 1	L'	_	DET	_	_	2	det	_	_
 2	étude	_	NOUN	_	_	7	nsubj	_	_
 3	de	_	ADP	_	_	5	case	_	_
 4	les	_	DET	_	_	5	det	_	_
 5	volcans	_	NOUN	_	_	2	nmod	_	_
 6	s'	_	PRON	_	_	7	obj	_	_
-7	appelle	_   VERB    _	_	0	root	_	_
+7	appelle	_	VERB	_	_	0	root	_	_
 8	la	_	DET	_	_	9	det	_	_
 9	volcanologie	_	NOUN	_	_	7	xcomp	_	_
 10	,	_	PUNCT	_	_	13	punct	_	_
@@ -71,14 +73,15 @@
 13	vulcanologie	_	NOUN	_	_	9	conj	_	_
 14	.	_	PUNCT	_	_	7	punct	_	_
 
-#sent_id = 6
-#sent = Ca a été mis en œuvre au large de la côte du Mexique d'avril à juin.
+# text = ent    id = 6
+# text = ent = Ca a été mis en œuvre au large de la côte du Mexique d'avril à juin.
 1	Ca	_	PRON	_	_	4	nsubj:pass	_	_
 2	a	_	AUX	_	_	4	aux:tense	_	_
 3	été	_	AUX	_	_	4	aux:pass	_	_
-4	mis	_	VERB    _   _	0	root	_	_
+4	mis	_	VERB	_	_	0	root	_	_
 5	en	_	ADP	_	_	6	case	_	_
 6	œuvre	_	NOUN	_	_	4	obl	_	_
+7-8	au	_	_	_	_	_	_	_	_
 7	à	_	ADP	_	_	9	case	_	_
 8	le	_	DET	_	_	9	det	_	_
 9	large	_	NOUN	_	_	4	obl	_	_
@@ -94,29 +97,29 @@
 19	juin	_	NOUN	_	_	17	nmod	_	_
 20	.	_	PUNCT	_	_	4	punct	_	_
 
-#sent_id = 7
-#sent = Sa voix a littéralement fait le tour du monde, dit Leive.
+# text = ent    id = 7
+# text = ent = Sa voix a littéralement fait le tour du monde, dit Leive.
 1	Sa	_	DET	_	_	2	det	_	_
 2	voix	_	NOUN	_	_	5	nsubj	_	_
 3	a	_	AUX	_	_	5	aux:tense	_	_
 4	littéralement	_	ADV	_	_	5	advmod	_	_
-5	fait	_	_	12	parataxis	_	_
+5	fait	_	VERB	_	_	12	parataxis	_	_
 6	le	_	DET	_	_	7	det	_	_
 7	tour	_	NOUN	_	_	5	obj	_	_
 8	de	_	ADP	_	_	10	case	_	_
 9	le	_	DET	_	_	10	det	_	_
 10	monde	_	NOUN	_	_	7	nmod	_	_
 11	,	_	PUNCT	_	_	5	punct	_	_
-12	dit	_	VERB    _   _	0	root	_	_
+12	dit	_	VERB	_	_	0	root	_	_
 13	Leive	_	PROPN	_	_	12	nsubj	_	_
 14	.	_	PUNCT	_	_	12	punct	_	_
 
-#sent_id = 8
-#sent = Un témoin a dit à la police que la victime avait attaqué le suspect en avril.
+# text = ent    id = 8
+# text = ent = Un témoin a dit à la police que la victime avait attaqué le suspect en avril.
 1	Un	_	DET	_	_	2	det	_	_
 2	témoin	_	NOUN	_	_	4	nsubj	_	_
 3	a	_	AUX	_	_	4	aux:tense	_	_
-4	dit	_	VERB    _   _	0	root	_	_
+4	dit	_	VERB	_	_	0	root	_	_
 5	à	_	ADP	_	_	7	case	_	_
 6	la	_	DET	_	_	7	det	_	_
 7	police	_	NOUN	_	_	4	obl	_	_
@@ -124,20 +127,20 @@
 9	la	_	DET	_	_	10	det	_	_
 10	victime	_	NOUN	_	_	12	nsubj	_	_
 11	avait	_	AUX	_	_	12	aux:tense	_	_
-12	attaqué	_	VERB    _   _	4	ccomp	_	_
+12	attaqué	_	VERB	_	_	4	ccomp	_	_
 13	le	_	DET	_	_	14	det	_	_
 14	suspect	_	NOUN	_	_	12	obj	_	_
 15	en	_	ADP	_	_	16	case	_	_
 16	avril	_	NOUN	_	_	12	obl	_	_
 17	.	_	PUNCT	_	_	4	punct	_	_
 
-#sent_id = 9   
-#sent = C'est particulièrement évident quand le prénom d'une célébrité est rare à l'origine.
+# text = ent    id = 9   
+# text = ent = C'est particulièrement évident quand le prénom d'une célébrité est rare à l'origine.
 1	C'	_	PRON	_	_	4	nsubj	_	_
-2	est	_	AUX _	_	4	cop	_	_
+2	est	_	AUX	_	_	4	cop	_	_
 3	particulièrement	_	ADV	_	_	4	advmod	_	_
 4	évident	_	ADJ	_	_	0	root	_	_
-5	quand	_	SCONJ	W_	_	12	mark	_	_
+5	quand	_	SCONJ	_	_	12	mark	_	_
 6	le	_	DET	_	_	7	det	_	_
 7	prénom	_	NOUN	_	_	12	nsubj	_	_
 8	d'	_	ADP	_	_	10	case	_	_
@@ -150,34 +153,34 @@
 15	origine	_	NOUN	_	_	12	obl	_	_
 16	.	_	PUNCT	_	_	4	punct	_	_
 
-#sent_id = 10
-#sent = Cette conjoncture n’a en rien entravé les investisseurs qui ont afflué vers ces fonds.
+# text = ent    id = 10
+# text = ent = Cette conjoncture n’a en rien entravé les investisseurs qui ont afflué vers ces fonds.
 1	Cette	_	DET	_	_	2	det	_	_
 2	conjoncture	_	NOUN	_	_	7	nsubj	_	_
 3	n’	_	ADV	_	_	7	advmod	_	_
 4	a	_	AUX	_	_	7	aux:tense	_	_
 5	en	_	ADP	_	_	6	case	_	_
 6	rien	_	PRON	_	_	7	obl	_	_
-7	entravé	_	_	0	root	_	_
+7	entravé	_	VERB	_	_	0	root	_	_
 8	les	_	DET	_	_	9	det	_	_
 9	investisseurs	_	NOUN	_	_	7	obj	_	_
 10	qui	_	PRON	_	_	12	nsubj	_	_
 11	ont	_	AUX	_	_	12	aux:tense	_	_
-12	afflué	_	_	9	acl:relcl	_	_
+12	afflué	_	VERB	_	_	9	acl:relcl	_	_
 13	vers	_	ADP	_	_	15	case	_	_
 14	ces	_	DET	_	_	15	det	_	_
 15	fonds	_	NOUN	_	_	12	obl	_	_
 16	.	_	PUNCT	_	_	7	punct	_	_
 
-#sent_id = 11
-#sent = Cette discordance entre les résultats économiques et le discours politique est bien connu, ou devrait l'être.
+# text = ent    id = 11
+# text = ent = Cette discordance entre les résultats économiques et le discours politique est bien connu, ou devrait l'être.
 1	Cette	_	DET	_	_	2	det	_	_
 2	discordance	_	NOUN	_	_	13	nsubj	_	_
 3	entre	_	ADP	_	_	5	case	_	_
 4	les	_	DET	_	_	5	det	_	_
 5	résultats	_	NOUN	_	_	2	nmod	_	_
 6	économiques	_	ADJ	_	_	5	amod	_	_
-7	et	_	CCONJ	CC	_	9	cc	_	_
+7	et	_	CCONJ	_	_	9	cc	_	_
 8	le	_	DET	_	_	9	det	_	_
 9	discours	_	NOUN	_	_	5	conj	_	_
 10	politique	_	ADJ	_	_	9	amod	_	_
@@ -191,11 +194,11 @@
 18	être	_	AUX	_	_	17	cop	_	_
 19	.	_	PUNCT	_	_	13	punct	_	_
 
-#sent_id = 12
-#sent = L'étude de faisabilité estime qu'il faudrait environ quatre minutes aux passagers pour traverser le Potomac en gondole.
+# text = ent    id = 12
+# text = ent = L'étude de faisabilité estime qu'il faudrait environ quatre minutes aux passagers pour traverser le Potomac en gondole.
 1	L'	_	DET	_	_	2	det	_	_
 2	étude	_	NOUN	_	_	5	nsubj	_	_
-3	de	_	ADP	IN	_	4	case	_	_
+3	de	_	ADP	_	_	4	case	_	_
 4	faisabilité	_	NOUN	_	_	2	nmod	_	_
 5	estime	_	VERB	_	_	0	root	_	_
 6	qu'	_	SCONJ	_	_	8	mark	_	_
@@ -212,245 +215,245 @@
 16	traverser	_	VERB	_	_	8	advcl	_	_
 17	le	_	DET	_	_	18	det	_	_
 18	Potomac	_	PROPN	_	_	16	obj	_	_
-19	en	_	ADP	IN	_	20	case	_	_
+19	en	_	ADP	_	_	20	case	_	_
 20	gondole	_	NOUN	_	_	16	obl	_	_
 21	.	_	PUNCT	_	_	5	punct	_	_
 
-#sent_id = 13   
-#sent = Il collectionnait des cartes et les échangeait avec les autres garçons
-1    Il    _    PRON    _    _   2    nsubj   _    _
-2    collectionnait  _   VERB    _    _    0    root     _    _
-3    de    _    ADP     _    _    5    case    _    _
-4    les     _    DET     _    _     5    det     _    _
-5    cartes  _   NOUN    _    _  2    obl:arg _    _
-6    et    _    CCONJ   _    _    8    cc    _    _
-7    les     _    PRON    _    _    8    obj     _    _
-8    échangeait    _    VERB    _    _    2    conj     _    _
-9    avec    _    ADP     _    _    12    case    _    _
-10    les     _    DET     _    _    12    det     _    _
-11    autres  _   ADJ     _    _ 12    amod    _    _
-12    garçons _  NOUN    _    _ 8    obl:arg    _    _
+# text = ent    id = 13   
+# text = ent = Il collectionnait des cartes et les échangeait avec les autres garçons
+1	Il	_	PRON	_	_	2	nsubj	_	_
+2	collectionnait	_	VERB	_	_	0	root	_	_
+3	de	_	ADP	_	_	5	case	_	_
+4	les	_	DET	_	_	5	det	_	_
+5	cartes	_	NOUN	_	_	2	obl:arg	_	_
+6	et	_	CCONJ	_	_	8	cc	_	_
+7	les	_	PRON	_	_	8	obj	_	_
+8	échangeait	_	VERB	_	_	2	conj	_	_
+9	avec	_	ADP	_	_	12	case	_	_
+10	les	_	DET	_	_	12	det	_	_
+11	autres	_	ADJ	_	_	12	amod	_	_
+12	garçons	_	NOUN	_	_	8	obl:arg	_	_
 
-#sent_id = 14
-#sent = ce crime est passible de cinq ans de prison
-1    ce    _    DET     _    _    2    det     _    _
-2    crime   _   NOUN    _    _ 4    nsubj   _    _
-3    est     _    AUX     _    _   4    cop     _    _
-4    passible     _     ADJ     _    _  0    root    _    _
-5    de    _    ADP     _    _    7    case    _    _
-6    cinq    _    NUM     _    _    7    nummod  _    _
-7    ans     _    NOUN    _    _ 4    obl:mod _    _
-8    de    _    ADP     _    _    9    case    _    _
-9    prison  _  NOUN    _    _  7    nmod    _    _
+# text = ent    id = 14
+# text = ent = ce crime est passible de cinq ans de prison
+1	ce	_	DET	_	_	2	det	_	_
+2	crime	_	NOUN	_	_	4	nsubj	_	_
+3	est	_	AUX	_	_	4	cop	_	_
+4	passible	_	ADJ	_	_	0	root	_	_
+5	de	_	ADP	_	_	7	case	_	_
+6	cinq	_	NUM	_	_	7	nummod	_	_
+7	ans	_	NOUN	_	_	4	obl:mod	_	_
+8	de	_	ADP	_	_	9	case	_	_
+9	prison	_	NOUN	_	_	7	nmod	_	_
 
-#sent_id = 15
-#sent = Les nouvelles ont été portées dans tous les villages de la province
-1    Les     _    DET     _    _     2    det     _    _
-2    nouvelles    _ NOUN    _    _  5    nsubj:pass    _    _
-3    ont     _   AUX     _    _   5    aux:tense    _
-4    été     _    AUX     _    _     5    aux:pass     _
-5    portées _  VERB    _    _ 0    root    _    _
-6    dans    _    ADP     _    _    9    case    _    _
-7    tous    _    ADJ     _    _ 9    amod    _    _
-8    les     _    DET     _    _    9    det     _    _
-9    villages     _ NOUN    _    _ 5    obl:arg _    _
-10    de    _    ADP     _    _    12    case    _    _
-11    la    _    DET     _    _     12    det     _    _
-12    province     _     NOUN    _    _  9    nmod    _    _
+# text = ent    id = 15
+# text = ent = Les nouvelles ont été portées dans tous les villages de la province
+1	Les	_	DET	_	_	2	det	_	_
+2	nouvelles	_	NOUN	_	_	5	nsubj:pass	_	_
+3	ont	_	AUX	_	_	5	aux:tense	_	_
+4	été	_	AUX	_	_	5	aux:pass	_	_
+5	portées	_	VERB	_	_	0	root	_	_
+6	dans	_	ADP	_	_	9	case	_	_
+7	tous	_	ADJ	_	_	9	amod	_	_
+8	les	_	DET	_	_	9	det	_	_
+9	villages	_	NOUN	_	_	5	obl:arg	_	_
+10	de	_	ADP	_	_	12	case	_	_
+11	la	_	DET	_	_	12	det	_	_
+12	province	_	NOUN	_	_	9	nmod	_	_
 
-#sent_id = 16   
-#text = Je porte ces pensées à l'arrière de ma tête
-1    Je    _    PRON    _    _    nsubj    _    _
-2    porte   _  VERB    _    _   0    root    _    _
-3    ces     _    DET     _    _    det    _    _
-4    pensées _  NOUN    _    _  2    obj    _
-5    à    _    ADP     _    _    7    case    _    _
-6    l'    _    DET     _    _    7    det     _    _
-7    arrière _ NOUN    _    _ 2    obl:mod  _   _
-8    de    _    ADP     _    _    10    case    _    _
-9    ma    _     DET     _    _    10    det     _    _
-10    tête    _    NOUN    _    _  7    nmod   _
+# text = ent    id = 16   
+# text = ext = Je porte ces pensées à l'arrière de ma tête
+1	Je	_	PRON	_	_	2	nsubj	_	_
+2	porte	_	VERB	_	_	0	root	_	_
+3	ces	_	DET	_	_	4	det	_	_
+4	pensées	_	NOUN	_	_	2	obj	_	_
+5	à	_	ADP	_	_	7	case	_	_
+6	l'	_	DET	_	_	7	det	_	_
+7	arrière	_	NOUN	_	_	2	obl:mod	_	_
+8	de	_	ADP	_	_	10	case	_	_
+9	ma	_	DET	_	_	10	det	_	_
+10	tête	_	NOUN	_	_	7	nmod	_	_
 
-#sent_id = 17
-#sent = Adam aurait été porté à la vie éternelle
-1    Adam    _    PROPN   _    _    4    nsubj:pass    _    _
-2    aurait  _   AUX     _    _   4    aux:tense    _
-3    été     _    AUX     _    _     4    aux:pass     _
-4    porté   _  VERB    _    _     0    root    _    _
-5    à    _    ADP     _    _    7    case    _    _
-6    la    _    DET     _    _     7    det     _    _
-7    vie     _     NOUN    _    _  4    obl:arg _    _
-8    éternelle    _ ADJ     _    _  7    amod    _    _
+# text = ent    id = 17
+# text = ent = Adam aurait été porté à la vie éternelle
+1	Adam	_	PROPN	_	_	4	nsubj:pass	_	_
+2	aurait	_	AUX	_	_	4	aux:tense	_	_
+3	été	_	AUX	_	_	4	aux:pass	_	_
+4	porté	_	VERB	_	_	0	root	_	_
+5	à	_	ADP	_	_	7	case	_	_
+6	la	_	DET	_	_	7	det	_	_
+7	vie	_	NOUN	_	_	4	obl:arg	_	_
+8	éternelle	_	ADJ	_	_	7	amod	_	_
 
-#sent_id = 18
-#sent = les revêtements avaient pourri et devaient être remplacés
-1    les     _    DET     _    _    2    det     _    _
-2    revêtements     _    NOUN    _    _ 4    nsubj   _    _
-3    avaient _   AUX     _    _    4    aux:tense    _
-4    pourri  _ VERB    _    _     0    root    _    _
-5    et    _    CCONJ   _    _    6    cc    _    _
-6    devaient     _  VERB    _    _    4    conj    _
-7    être    _    AUX     _    _    8    aux:pass     _    _
-8    remplacés    _    VERB    _    _     6    xcomp    _    _
+# text = ent    id = 18
+# text = ent = les revêtements avaient pourri et devaient être remplacés
+1	les	_	DET	_	_	2	det	_	_
+2	revêtements	_	NOUN	_	_	4	nsubj	_	_
+3	avaient	_	AUX	_	_	4	aux:tense	_	_
+4	pourri	_	VERB	_	_	0	root	_	_
+5	et	_	CCONJ	_	_	6	cc	_	_
+6	devaient	_	VERB	_	_	4	conj	_	_
+7	être	_	AUX	_	_	8	aux:pass	_	_
+8	remplacés	_	VERB	_	_	6	xcomp	_	_
 
-#sent_id = 19
-#sent = Elle était furieuse que cette gamine ose la ridiculiser devant toute la classe
-1    Elle    _    PRON    _    _    3    nsubj   _    _
-2    était   _    AUX     _    _    3    cop     _    _
-3    furieuse     _ ADJ     _    _  0    root    _    _
-4    que     _     SCONJ   _    _    7    mark    _    _
-5    cette   _    DET     _    _     6    det     _    _
-6    gamine  _  NOUN    _    _  7    nsubj   _    _
-7    ose     _    VERB    _    _   3    ccomp   _    _
-8    la    _    PRON    _    _    9    obj     _    _
-9    ridiculiser     _     VERB    _    _    7    xcomp   _    _
-10    devant  _  ADP     _    _    13    case    _    _
-11    toute   _    ADJ     _    _  13    amod    _    _
-12    la    _    DET     _    _     13    det     _    _
-13    classe  _  NOUN    _    _  9    obl     _    _
+# text = ent    id = 19
+# text = ent = Elle était furieuse que cette gamine ose la ridiculiser devant toute la classe
+1	Elle	_	PRON	_	_	3	nsubj	_	_
+2	était	_	AUX	_	_	3	cop	_	_
+3	furieuse	_	ADJ	_	_	0	root	_	_
+4	que	_	SCONJ	_	_	7	mark	_	_
+5	cette	_	DET	_	_	6	det	_	_
+6	gamine	_	NOUN	_	_	7	nsubj	_	_
+7	ose	_	VERB	_	_	3	ccomp	_	_
+8	la	_	PRON	_	_	9	obj	_	_
+9	ridiculiser	_	VERB	_	_	7	xcomp	_	_
+10	devant	_	ADP	_	_	13	case	_	_
+11	toute	_	ADJ	_	_	13	amod	_	_
+12	la	_	DET	_	_	13	det	_	_
+13	classe	_	NOUN	_	_	9	obl	_	_
 
-#sent_id = 20
-#sent = le glissement de terrain qu'il a eu au collège électoral a obscurci l'étroitesse d'une victoire basée sur seulement 43% du vote populaire
-1    le    _    DET     _    _    2    det     _    _
-2    glissement    _    NOUN    _    _ 0    root    _    _
-3    de    _    ADP     _    _    4    case    _    _
-4    terrain _ NOUN    _    _ 2    nmod    _    _
-5    qu'     _     PRON    _    _    8    obj     _    _
-6    il    _    PRON    _    _   8    nsubj   _    _
-7    a    _   AUX     _    _   8    aux:tense    _
-8    eu    _   VERB    _    _     2    acl:relcl    _
-9    à    _    ADP     _    _    11    case    _    _
-10    le    _    DET     _    _    11    det     _    _
-11    collège _ NOUN    _    _ 8    obl:mod _    _
-12    électoral    _    ADJ     _    _ 11    amod    _    _
-13    a    _   ADP     _    _    16    case    _    _
-14    obscurci     _     ADV     _    _    16    advmod  _    _
-15    l'    _    DET     _    _     16    det     _    _
-16    étroitesse    _    NOUN    _    _  11    nmod    _    _
-17    d'    _    ADP     _    _    19    case    _    _
-18    une     _    DET     _    _     19    det     _    _
-19    victoire     _     NOUN    _    _  11    nmod    _    _
-20    basée   _   VERB    _    _ 19    acl     _    _
-21    sur     _     ADP     _    _    24    case    _    _
-22    seulement    _    ADV     _    _    23    advmod  _    _
-23    43    _    NUM     _    _    24    nummod  _    _
-24    %    _    SYM     _    _    20    obl     _    _
-25    de    _    ADP     _    _    27    case    _    _
-26    le    _    DET     _    _    27    det     _    _
-27    vote    _    NOUN    _    _ 24    nmod    _    _
-28    populaire    _    ADJ     _    _ 27    amod    _    _
+# text = ent    id = 20
+# text = ent = le glissement de terrain qu'il a eu au collège électoral a obscurci l'étroitesse d'une victoire basée sur seulement 43% du vote populaire
+1	le	_	DET	_	_	2	det	_	_
+2	glissement	_	NOUN	_	_	0	root	_	_
+3	de	_	ADP	_	_	4	case	_	_
+4	terrain	_	NOUN	_	_	2	nmod	_	_
+5	qu'	_	PRON	_	_	8	obj	_	_
+6	il	_	PRON	_	_	8	nsubj	_	_
+7	a	_	AUX	_	_	8	aux:tense	_	_
+8	eu	_	VERB	_	_	2	acl:relcl	_	_
+9-10	au	_	_	_	_	_	_	_	_
+9	à	_	ADP	_	_	11	case	_	_
+10	le	_	DET	_	_	11	det	_	_
+11	collège	_	NOUN	_	_	8	obl:mod	_	_
+12	électoral	_	ADJ	_	_	11	amod	_	_
+13	a	_	ADP	_	_	16	case	_	_
+14	obscurci	_	ADV	_	_	16	advmod	_	_
+15	l'	_	DET	_	_	16	det	_	_
+16	étroitesse	_	NOUN	_	_	11	nmod	_	_
+17	d'	_	ADP	_	_	19	case	_	_
+18	une	_	DET	_	_	19	det	_	_
+19	victoire	_	NOUN	_	_	11	nmod	_	_
+20	basée	_	VERB	_	_	19	acl	_	_
+21	sur	_	ADP	_	_	24	case	_	_
+22	seulement	_	ADV	_	_	23	advmod	_	_
+23	43	_	NUM	_	_	24	nummod	_	_
+24	%	_	SYM	_	_	20	obl	_	_
+25	de	_	ADP	_	_	27	case	_	_
+26	le	_	DET	_	_	27	det	_	_
+27	vote	_	NOUN	_	_	24	nmod	_	_
+28	populaire	_	ADJ	_	_	27	amod	_	_
 
-#sent_id = 21
-#sent = Les troupes américaines portent désormais de l'atropine et des auto-injecteurs dans leurs trousses de premiers soins à utiliser en cas d'empoisonnement aux agents neurotoxiques organophosphorés
-1    Les     _    DET     _    _     2    det     _    _
-2    troupes _  NOUN    _    _  4    nsubj   _    _
-3    américaines     _    ADJ     _    _  2    amod    _    _
-4    portent _  VERB    _    _   0    root    _    _
-5    désormais    _    ADV     _    _    4    advmod  _    _
-6    de    _    ADP     _    _    8    case    _    _
-7    l'    _    DET     _    _     8    det     _    _
-8    atropine     _     NOUN    _    _  4    obl:arg _    _
-9    et    _    CCONJ   _    _    12    cc    _    _
-10    de    _    ADP     _    _    12    case    _    _
-11    les     _    DET     _    _    12    det     _    _
-12    auto  _   ADJ _   _   14  comp    _   _
-13  -   _   PUNCT   _   _   14  punct   _   _
-14  injecteurs _  NOUN    _    _ 8    conj    _    _
-13    dans    _    ADP     _    _    15    case    _    _
-14    leurs   _     DET     _    _    15    det     _    _
-15    trousses     _ NOUN    _    _  4    obl:mod _    _
-16    de    _    ADP     _    _    18    case    _    _
-17    premiers     _     NUM     _    _    18    nummod  _    _
-18    soins   _    NOUN    _    _ 15    nmod    _    _
-19    à    _    ADP     _    _    20    mark    _    _
-20    utiliser     _     VERB    _    _    18    acl     _    _
-21    en    _    ADP     _    _    22    case    _    _
-22    cas     _     NOUN    _    _ 20    obl     _    _
-23    d'    _    ADP     _    _    24    case    _    _
-24    empoisonnement  _  NOUN    _    _ 22    nmod    _    _
-25    à    _    ADP     _    _    27    case    _    _
-26    les     _    DET     _    _    27    det     _    _
-27    agents  _   NOUN    _    _ 20    obl:arg _    _
-28    neurotoxiques   _    ADJ     _    _ 27    amod    _    _
-29    organophosphorés     _ ADJ    _    _     27    amod     _    _
+# text = ent    id = 21
+# text = ent = Les troupes américaines portent désormais de l'atropine et des auto-injecteurs dans leurs trousses de premiers soins à utiliser en cas d'empoisonnement aux agents neurotoxiques organophosphorés
+1	Les	_	DET	_	_	2	det	_	_
+2	troupes	_	NOUN	_	_	4	nsubj	_	_
+3	américaines	_	ADJ	_	_	2	amod	_	_
+4	portent	_	VERB	_	_	0	root	_	_
+5	désormais	_	ADV	_	_	4	advmod	_	_
+6	de	_	ADP	_	_	8	case	_	_
+7	l'	_	DET	_	_	8	det	_	_
+8	atropine	_	NOUN	_	_	4	obl:arg	_	_
+9	et	_	CCONJ	_	_	12	cc	_	_
+10	de	_	ADP	_	_	12	case	_	_
+11	les	_	DET	_	_	12	det	_	_
+12	auto-injecteurs	_	NOUN	_	_	8	conj	_	_
+13	dans	_	ADP	_	_	14	case	_	_
+14	leurs	_	DET	_	_	12	det	_	_
+15	trousses	_	NOUN	_	_	4	obl:mod	_	_
+16	de	_	ADP	_	_	18	case	_	_
+17	premiers	_	NUM	_	_	18	nummod	_	_
+18	soins	_	NOUN	_	_	15	nmod	_	_
+19	à	_	ADP	_	_	20	mark	_	_
+20	utiliser	_	VERB	_	_	18	acl	_	_
+21	en	_	ADP	_	_	22	case	_	_
+22	cas	_	NOUN	_	_	20	obl	_	_
+23	d'	_	ADP	_	_	24	case	_	_
+24	empoisonnement	_	NOUN	_	_	22	nmod	_	_
+25	à	_	ADP	_	_	27	case	_	_
+26	les	_	DET	_	_	27	det	_	_
+27	agents	_	NOUN	_	_	20	obl:arg	_	_
+28	neurotoxiques	_	ADJ	_	_	27	amod	_	_
+29	organophosphorés	_	ADJ	_	_	27	amod	_	_
 
-#sent_id = 22
-#sent = il peut accomplir par la ruse à long terme ce qu'il ne peut pas faire par la force et la violence à court terme
-1    il    _    PRON    _    _   2    nsubj   _    _
-2    peut    _ VERB    _    _   0    root    _    _
-3    accomplir    _    VERB    _    _    2    xcomp   _    _
-4    par     _     ADP     _    _    6    case    _    _
-5    la    _    DET     _    _     6    det     _    _
-6    ruse    _    NOUN    _    _  3    obl:arg _    _
-7    à    _    ADP     _    _    9    case    _    _
-8    long    _    ADJ     _    _ 9    amod    _    _
-9    terme   _   NOUN    _    _ 6    nmod    _    _
-10    ce    _    PRON    _    _|_    6    appos   _    _
-11    qu'     _     PRON    _    _    14    obj     _    _
-12    il    _    PRON    _    _   14    nsubj   _    _
-13    ne    _    ADV     _    _    14    advmod  _    _
-14    peut    _ VERB    _    _   10    acl:relcl    _
-15    pas     _     ADV     _    _    14    advmod  _    _
-16    faire   _   VERB    _    _    14    xcomp   _    _
-17    par     _     ADP     _    _    19    case    _    _
-18    la    _    DET     _    _     19    det     _    _
-19    force   _   NOUN    _    _  16    obl:mod _    _
-20    et    _    CCONJ   _    _    22    cc    _    _
-21    la    _    DET     _    _     22    det     _    _
-22    violence     _     NOUN    _    _  19    conj    _    _
-23    à    _    ADP     _    _    25    case    _    _
-24    court   _   ADJ     _    _ 25    amod    _    _
-25    terme   _   NOUN    _    _ 19    nmod    _    _
+# text = ent    id = 22
+# text = ent = il peut accomplir par la ruse à long terme ce qu'il ne peut pas faire par la force et la violence à court terme
+1	il	_	PRON	_	_	2	nsubj	_	_
+2	peut	_	VERB	_	_	0	root	_	_
+3	accomplir	_	VERB	_	_	2	xcomp	_	_
+4	par	_	ADP	_	_	6	case	_	_
+5	la	_	DET	_	_	6	det	_	_
+6	ruse	_	NOUN	_	_	3	obl:arg	_	_
+7	à	_	ADP	_	_	9	case	_	_
+8	long	_	ADJ	_	_	9	amod	_	_
+9	terme	_	NOUN	_	_	6	nmod	_	_
+10	ce	_	PRON	_	_	6	appos	_	_
+11	qu'	_	PRON	_	_	14	obj	_	_
+12	il	_	PRON	_	_	14	nsubj	_	_
+13	ne	_	ADV	_	_	14	advmod	_	_
+14	peut	_	VERB	_	_	10	acl:relcl	_	_
+15	pas	_	ADV	_	_	14	advmod	_	_
+16	faire	_	VERB	_	_	14	xcomp	_	_
+17	par	_	ADP	_	_	19	case	_	_
+18	la	_	DET	_	_	19	det	_	_
+19	force	_	NOUN	_	_	16	obl:mod	_	_
+20	et	_	CCONJ	_	_	22	cc	_	_
+21	la	_	DET	_	_	22	det	_	_
+22	violence	_	NOUN	_	_	19	conj	_	_
+23	à	_	ADP	_	_	25	case	_	_
+24	court	_	ADJ	_	_	25	amod	_	_
+25	terme	_	NOUN	_	_	19	nmod	_	_
 
-#sent_id = 23
-#sent = on a dit que seule une société hiérarchisée avec une classe de loisirs au sommet peut produire des œuvres d'art
-1    on    _    PRON    _    _     3    nsubj   _    _
-2    a    _   AUX     _    _   3    aux:tense    _
-3    dit     _    VERB    _    _     0    root    _    _
-4    que     _     SCONJ   _    _    17    mark    _    _
-5    seule   _    ADJ     _    _  7    amod    _    _
-6    une     _    DET     _    _     7    det     _    _
-7    société _ NOUN    _    _  17    nsubj   _    _
-8    hiérarchisée    _    ADJ     _    _  7    amod    _    _
-9    avec    _    ADP     _    _    11    case    _    _
-10    une     _    DET     _    _     11    det     _    _
-11    classe  _  NOUN    _    _  7    nmod    _    _
-12    de    _    ADP     _    _    13    case    _    _
-13    loisirs _  NOUN    _    _ 11    nmod    _    _
-14    à    _    ADP     _    _    16    case    _    _
-15    le    _    DET     _    _    16    det     _    _
-16    sommet  _  NOUN    _    _ 11    nmod    _    _
-17    peut    _ VERB    _    _   3    ccomp   _    _
-18    produire     _     VERB    _    _    17    xcomp   _    _
-19    de    _    ADP     _    _    21    case    _    _
-20    les     _    DET     _    _     21    det     _    _
-21    œuvres  _   NOUN    _    _  18    obl:arg _    _
-22    d'    _    ADP     _    _    23    case    _    _
-23    art     _     NOUN    _    _ 21    nmod    _    _
+# text = ent    id = 23
+# text = ent = on a dit que seule une société hiérarchisée avec une classe de loisirs au sommet peut produire des œuvres d'art
+1	on	_	PRON	_	_	3	nsubj	_	_
+2	a	_	AUX	_	_	3	aux:tense	_	_
+3	dit	_	VERB	_	_	0	root	_	_
+4	que	_	SCONJ	_	_	17	mark	_	_
+5	seule	_	ADJ	_	_	7	amod	_	_
+6	une	_	DET	_	_	7	det	_	_
+7	société	_	NOUN	_	_	17	nsubj	_	_
+8	hiérarchisée	_	ADJ	_	_	7	amod	_	_
+9	avec	_	ADP	_	_	11	case	_	_
+10	une	_	DET	_	_	11	det	_	_
+11	classe	_	NOUN	_	_	7	nmod	_	_
+12	de	_	ADP	_	_	13	case	_	_
+13	loisirs	_	NOUN	_	_	11	nmod	_	_
+14-15	au	_	_	_	_	_	_	_	_
+14	à	_	ADP	_	_	16	case	_	_
+15	le	_	DET	_	_	16	det	_	_
+16	sommet	_	NOUN	_	_	11	nmod	_	_
+17	peut	_	VERB	_	_	3	ccomp	_	_
+18	produire	_	VERB	_	_	17	xcomp	_	_
+19	de	_	ADP	_	_	21	case	_	_
+20	les	_	DET	_	_	21	det	_	_
+21	œuvres	_	NOUN	_	_	18	obl:arg	_	_
+22	d'	_	ADP	_	_	23	case	_	_
+23	art	_	NOUN	_	_	21	nmod	_	_
 
-#sent_id = 24
-#sent = son explication ingénue était qu'il n'aurait pas brûlé l'église s'il n'avait pas pensé que l'évêque s'y trouvait
-1    son     _     DET     _    _    2    det     _    _
-2    explication     _     NOUN    _    _  10    nsubj   _    _
-3    ingénue _  ADJ     _    _  2    amod    _    _
-4    était   _    AUX     _    _    10    aux:tense    _
-5    qu'     _     PRON    _    _    10    obj     _    _
-6    il    _    PRON    _    _   10    nsubj   _    _
-7    n'    _    ADV     _    _    10    advmod  _    _
-8    aurait  _   AUX     _    _   10    aux:tense    _
-9    pas     _     ADV     _    _    10    advmod  _    _
-10    brûlé   _  VERB    _    _     0    root    _    _
-11    l'    _    DET     _    _     12    det     _    _
-12    église  _  NOUN    _    _  10    obj     _    _
-13    s'    _    SCONJ   _    _    18    mark    _    _
-14    il    _    PRON    _    _   18    nsubj   _    _
-15    n'    _    ADV     _    _    18    advmod  _    _
-16    avait   _   AUX     _    _    18    aux:tense    _
-17    pas     _     ADV     _    _    18    advmod  _    _
-18    pensé   _  VERB    _    _     10    advcl   _    _
-19    que     _     SCONJ   _    _    24    mark    _    _
-20    l'    _    DET     _    _    21    det     _    _
-21    évêque  _  NOUN    _    _ 24    nsubj   _    _
-22    s'    _    PRON    _    _   24    expl:pass    _    _
-23    y    _    PRON    _    _    24    iobj    _    _
-24    trouvait     _ VERB    _    _    18    ccomp   _
+# text = ent    id = 24
+# text = ent = son explication ingénue était qu'il n'aurait pas brûlé l'église s'il n'avait pas pensé que l'évêque s'y trouvait
+1	son	_	DET	_	_	2	det	_	_
+2	explication	_	NOUN	_	_	10	nsubj	_	_
+3	ingénue	_	ADJ	_	_	2	amod	_	_
+4	était	_	AUX	_	_	10	aux:tense	_	_
+5	qu'	_	PRON	_	_	10	obj	_	_
+6	il	_	PRON	_	_	10	nsubj	_	_
+7	n'	_	ADV	_	_	10	advmod	_	_
+8	aurait	_	AUX	_	_	10	aux:tense	_	_
+9	pas	_	ADV	_	_	10	advmod	_	_
+10	brûlé	_	VERB	_	_	0	root	_	_
+11	l'	_	DET	_	_	12	det	_	_
+12	église	_	NOUN	_	_	10	obj	_	_
+13	s'	_	SCONJ	_	_	18	mark	_	_
+14	il	_	PRON	_	_	18	nsubj	_	_
+15	n'	_	ADV	_	_	18	advmod	_	_
+16	avait	_	AUX	_	_	18	aux:tense	_	_
+17	pas	_	ADV	_	_	18	advmod	_	_
+18	pensé	_	VERB	_	_	10	advcl	_	_
+19	que	_	SCONJ	_	_	24	mark	_	_
+20	l'	_	DET	_	_	21	det	_	_
+21	évêque	_	NOUN	_	_	24	nsubj	_	_
+22	s'	_	PRON	_	_	24	expl:pass	_	_
+23	y	_	PRON	_	_	24	iobj	_	_
+24	trouvait	_	VERB	_	_	18	ccomp	_	_
