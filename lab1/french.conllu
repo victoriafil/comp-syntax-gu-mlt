@@ -1,13 +1,13 @@
-# text = ent    id = 1
-# text = ent = Qui sont-ils?
+# sent_id = 1
+# sent = Qui sont-ils?
 1	Qui	_	PROPN	_	_	0	root	_	_
 2	sont	_	AUX	_	_	1	cop	_	_
 3	-	_	PUNCT	_	_	2	punct	_	_
 4	ils	_	PRON	_	_	2	nsubj	_	_
 5	?	_	PUNCT	_	_	1	punct	_	_
 
-# text = ent    id = 2   
-# text = ent = On passe à proximité d’une ville avec deux minarets.
+# sent_id = 2   
+# sent = On passe à proximité d’une ville avec deux minarets.
 1	On	_	PRON	_	_	2	nsubj	_	_
 2	passe	_	VERB	_	_	0	root	_	_
 3	à	_	ADP	_	_	7	case	_	_
@@ -21,8 +21,8 @@
 11	.	_	PUNCT	_	_	2	punct	_	_
 
 
-# text = ent    id = 3   
-# text = ent = Je n’étais qu’un garçon avec les chaussures couvertes de boue.
+# sent_id = 3   
+# sent = Je n’étais qu’un garçon avec les chaussures couvertes de boue.
 1	Je	_	PRON	_	_	6	nsubj	_	_
 2	n’	_	ADV	_	_	6	advmod	_	_
 3	étais	_	AUX	_	_	6	cop	_	_
@@ -38,8 +38,8 @@
 13	.	_	PUNCT	_	_	6	punct	_	_
 
 
-# text = ent    id = 4
-# text = ent = La police routière de Shenzhen a opté pour des pénalités inhabituelles dans le passé.
+# sent_id = 4
+# sent = La police routière de Shenzhen a opté pour des pénalités inhabituelles dans le passé.
 1	La	_	DET	_	_	2	det	_	_
 2	police	_	NOUN	_	_	7	nsubj	_	_
 3	routière	_	ADJ	_	_	2	amod	_	_
@@ -56,8 +56,8 @@
 14	passé	_	NOUN	_	_	11	obl	_	_
 15	.	_	PUNCT	_	_	7	punct	_	_
 
-# text = ent    id = 5
-# text = ent = L'étude des volcans s'appelle la volcanologie, ou parfois vulcanologie.
+# sent_id = 5
+# sent = L'étude des volcans s'appelle la volcanologie, ou parfois vulcanologie.
 1	L'	_	DET	_	_	2	det	_	_
 2	étude	_	NOUN	_	_	7	nsubj	_	_
 3	de	_	ADP	_	_	5	case	_	_
@@ -73,8 +73,8 @@
 13	vulcanologie	_	NOUN	_	_	9	conj	_	_
 14	.	_	PUNCT	_	_	7	punct	_	_
 
-# text = ent    id = 6
-# text = ent = Ca a été mis en œuvre au large de la côte du Mexique d'avril à juin.
+# sent_id = 6
+# sent = Ca a été mis en œuvre au large de la côte du Mexique d'avril à juin.
 1	Ca	_	PRON	_	_	4	nsubj:pass	_	_
 2	a	_	AUX	_	_	4	aux:tense	_	_
 3	été	_	AUX	_	_	4	aux:pass	_	_
@@ -97,8 +97,8 @@
 19	juin	_	NOUN	_	_	17	nmod	_	_
 20	.	_	PUNCT	_	_	4	punct	_	_
 
-# text = ent    id = 7
-# text = ent = Sa voix a littéralement fait le tour du monde, dit Leive.
+# sent_id = 7
+# sent = Sa voix a littéralement fait le tour du monde, dit Leive.
 1	Sa	_	DET	_	_	2	det	_	_
 2	voix	_	NOUN	_	_	5	nsubj	_	_
 3	a	_	AUX	_	_	5	aux:tense	_	_
@@ -114,8 +114,8 @@
 13	Leive	_	PROPN	_	_	12	nsubj	_	_
 14	.	_	PUNCT	_	_	12	punct	_	_
 
-# text = ent    id = 8
-# text = ent = Un témoin a dit à la police que la victime avait attaqué le suspect en avril.
+# sent_id = 8
+# sent = Un témoin a dit à la police que la victime avait attaqué le suspect en avril.
 1	Un	_	DET	_	_	2	det	_	_
 2	témoin	_	NOUN	_	_	4	nsubj	_	_
 3	a	_	AUX	_	_	4	aux:tense	_	_
@@ -134,8 +134,8 @@
 16	avril	_	NOUN	_	_	12	obl	_	_
 17	.	_	PUNCT	_	_	4	punct	_	_
 
-# text = ent    id = 9   
-# text = ent = C'est particulièrement évident quand le prénom d'une célébrité est rare à l'origine.
+# sent_id = 9   
+# sent = C'est particulièrement évident quand le prénom d'une célébrité est rare à l'origine.
 1	C'	_	PRON	_	_	4	nsubj	_	_
 2	est	_	AUX	_	_	4	cop	_	_
 3	particulièrement	_	ADV	_	_	4	advmod	_	_
@@ -153,8 +153,8 @@
 15	origine	_	NOUN	_	_	12	obl	_	_
 16	.	_	PUNCT	_	_	4	punct	_	_
 
-# text = ent    id = 10
-# text = ent = Cette conjoncture n’a en rien entravé les investisseurs qui ont afflué vers ces fonds.
+# sent_id = 10
+# sent = Cette conjoncture n’a en rien entravé les investisseurs qui ont afflué vers ces fonds.
 1	Cette	_	DET	_	_	2	det	_	_
 2	conjoncture	_	NOUN	_	_	7	nsubj	_	_
 3	n’	_	ADV	_	_	7	advmod	_	_
@@ -172,8 +172,8 @@
 15	fonds	_	NOUN	_	_	12	obl	_	_
 16	.	_	PUNCT	_	_	7	punct	_	_
 
-# text = ent    id = 11
-# text = ent = Cette discordance entre les résultats économiques et le discours politique est bien connu, ou devrait l'être.
+# sent_id = 11
+# sent = Cette discordance entre les résultats économiques et le discours politique est bien connu, ou devrait l'être.
 1	Cette	_	DET	_	_	2	det	_	_
 2	discordance	_	NOUN	_	_	13	nsubj	_	_
 3	entre	_	ADP	_	_	5	case	_	_
@@ -194,8 +194,8 @@
 18	être	_	AUX	_	_	17	cop	_	_
 19	.	_	PUNCT	_	_	13	punct	_	_
 
-# text = ent    id = 12
-# text = ent = L'étude de faisabilité estime qu'il faudrait environ quatre minutes aux passagers pour traverser le Potomac en gondole.
+# sent_id = 12
+# sent = L'étude de faisabilité estime qu'il faudrait environ quatre minutes aux passagers pour traverser le Potomac en gondole.
 1	L'	_	DET	_	_	2	det	_	_
 2	étude	_	NOUN	_	_	5	nsubj	_	_
 3	de	_	ADP	_	_	4	case	_	_
@@ -219,8 +219,8 @@
 20	gondole	_	NOUN	_	_	16	obl	_	_
 21	.	_	PUNCT	_	_	5	punct	_	_
 
-# text = ent    id = 13   
-# text = ent = Il collectionnait des cartes et les échangeait avec les autres garçons
+# sent_id = 13   
+# sent = Il collectionnait des cartes et les échangeait avec les autres garçons
 1	Il	_	PRON	_	_	2	nsubj	_	_
 2	collectionnait	_	VERB	_	_	0	root	_	_
 3	de	_	ADP	_	_	5	case	_	_
@@ -234,8 +234,8 @@
 11	autres	_	ADJ	_	_	12	amod	_	_
 12	garçons	_	NOUN	_	_	8	obl:arg	_	_
 
-# text = ent    id = 14
-# text = ent = ce crime est passible de cinq ans de prison
+# sent_id = 14
+# sent = ce crime est passible de cinq ans de prison
 1	ce	_	DET	_	_	2	det	_	_
 2	crime	_	NOUN	_	_	4	nsubj	_	_
 3	est	_	AUX	_	_	4	cop	_	_
@@ -246,8 +246,8 @@
 8	de	_	ADP	_	_	9	case	_	_
 9	prison	_	NOUN	_	_	7	nmod	_	_
 
-# text = ent    id = 15
-# text = ent = Les nouvelles ont été portées dans tous les villages de la province
+# sent_id = 15
+# sent = Les nouvelles ont été portées dans tous les villages de la province
 1	Les	_	DET	_	_	2	det	_	_
 2	nouvelles	_	NOUN	_	_	5	nsubj:pass	_	_
 3	ont	_	AUX	_	_	5	aux:tense	_	_
@@ -261,7 +261,7 @@
 11	la	_	DET	_	_	12	det	_	_
 12	province	_	NOUN	_	_	9	nmod	_	_
 
-# text = ent    id = 16   
+# sent_id = 16   
 # text = ext = Je porte ces pensées à l'arrière de ma tête
 1	Je	_	PRON	_	_	2	nsubj	_	_
 2	porte	_	VERB	_	_	0	root	_	_
@@ -274,8 +274,8 @@
 9	ma	_	DET	_	_	10	det	_	_
 10	tête	_	NOUN	_	_	7	nmod	_	_
 
-# text = ent    id = 17
-# text = ent = Adam aurait été porté à la vie éternelle
+# sent_id = 17
+# sent = Adam aurait été porté à la vie éternelle
 1	Adam	_	PROPN	_	_	4	nsubj:pass	_	_
 2	aurait	_	AUX	_	_	4	aux:tense	_	_
 3	été	_	AUX	_	_	4	aux:pass	_	_
@@ -285,8 +285,8 @@
 7	vie	_	NOUN	_	_	4	obl:arg	_	_
 8	éternelle	_	ADJ	_	_	7	amod	_	_
 
-# text = ent    id = 18
-# text = ent = les revêtements avaient pourri et devaient être remplacés
+# sent_id = 18
+# sent = les revêtements avaient pourri et devaient être remplacés
 1	les	_	DET	_	_	2	det	_	_
 2	revêtements	_	NOUN	_	_	4	nsubj	_	_
 3	avaient	_	AUX	_	_	4	aux:tense	_	_
@@ -296,8 +296,8 @@
 7	être	_	AUX	_	_	8	aux:pass	_	_
 8	remplacés	_	VERB	_	_	6	xcomp	_	_
 
-# text = ent    id = 19
-# text = ent = Elle était furieuse que cette gamine ose la ridiculiser devant toute la classe
+# sent_id = 19
+# sent = Elle était furieuse que cette gamine ose la ridiculiser devant toute la classe
 1	Elle	_	PRON	_	_	3	nsubj	_	_
 2	était	_	AUX	_	_	3	cop	_	_
 3	furieuse	_	ADJ	_	_	0	root	_	_
@@ -312,8 +312,8 @@
 12	la	_	DET	_	_	13	det	_	_
 13	classe	_	NOUN	_	_	9	obl	_	_
 
-# text = ent    id = 20
-# text = ent = le glissement de terrain qu'il a eu au collège électoral a obscurci l'étroitesse d'une victoire basée sur seulement 43% du vote populaire
+# sent_id = 20
+# sent = le glissement de terrain qu'il a eu au collège électoral a obscurci l'étroitesse d'une victoire basée sur seulement 43% du vote populaire
 1	le	_	DET	_	_	2	det	_	_
 2	glissement	_	NOUN	_	_	0	root	_	_
 3	de	_	ADP	_	_	4	case	_	_
@@ -344,8 +344,8 @@
 27	vote	_	NOUN	_	_	24	nmod	_	_
 28	populaire	_	ADJ	_	_	27	amod	_	_
 
-# text = ent    id = 21
-# text = ent = Les troupes américaines portent désormais de l'atropine et des auto-injecteurs dans leurs trousses de premiers soins à utiliser en cas d'empoisonnement aux agents neurotoxiques organophosphorés
+# sent_id = 21
+# sent = Les troupes américaines portent désormais de l'atropine et des auto-injecteurs dans leurs trousses de premiers soins à utiliser en cas d'empoisonnement aux agents neurotoxiques organophosphorés
 1	Les	_	DET	_	_	2	det	_	_
 2	troupes	_	NOUN	_	_	4	nsubj	_	_
 3	américaines	_	ADJ	_	_	2	amod	_	_
@@ -376,8 +376,8 @@
 28	neurotoxiques	_	ADJ	_	_	27	amod	_	_
 29	organophosphorés	_	ADJ	_	_	27	amod	_	_
 
-# text = ent    id = 22
-# text = ent = il peut accomplir par la ruse à long terme ce qu'il ne peut pas faire par la force et la violence à court terme
+# sent_id = 22
+# sent = il peut accomplir par la ruse à long terme ce qu'il ne peut pas faire par la force et la violence à court terme
 1	il	_	PRON	_	_	2	nsubj	_	_
 2	peut	_	VERB	_	_	0	root	_	_
 3	accomplir	_	VERB	_	_	2	xcomp	_	_
@@ -404,8 +404,8 @@
 24	court	_	ADJ	_	_	25	amod	_	_
 25	terme	_	NOUN	_	_	19	nmod	_	_
 
-# text = ent    id = 23
-# text = ent = on a dit que seule une société hiérarchisée avec une classe de loisirs au sommet peut produire des œuvres d'art
+# sent_id = 23
+# sent = on a dit que seule une société hiérarchisée avec une classe de loisirs au sommet peut produire des œuvres d'art
 1	on	_	PRON	_	_	3	nsubj	_	_
 2	a	_	AUX	_	_	3	aux:tense	_	_
 3	dit	_	VERB	_	_	0	root	_	_
@@ -431,8 +431,8 @@
 22	d'	_	ADP	_	_	23	case	_	_
 23	art	_	NOUN	_	_	21	nmod	_	_
 
-# text = ent    id = 24
-# text = ent = son explication ingénue était qu'il n'aurait pas brûlé l'église s'il n'avait pas pensé que l'évêque s'y trouvait
+# sent_id = 24
+# sent = son explication ingénue était qu'il n'aurait pas brûlé l'église s'il n'avait pas pensé que l'évêque s'y trouvait
 1	son	_	DET	_	_	2	det	_	_
 2	explication	_	NOUN	_	_	10	nsubj	_	_
 3	ingénue	_	ADJ	_	_	2	amod	_	_
