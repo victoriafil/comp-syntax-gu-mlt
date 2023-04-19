@@ -1,0 +1,531 @@
+
+# text = Qui:<PROPN> sont:<AUX> -:<PUNCT> ils:<PRON> ?:<PUNCT>
+# analyses = 0
+# parsetree = (Chunks (S_front (S (NP (PN Qui)) (VP (aux sont))) (comma '-')) (Utt (Utt (NP (Pron ils))) (Punct '?')))
+1	Qui	_	PROPN	_	_	2	nsubj	_	_
+2	sont	_	AUX	_	_	4	dep	_	_
+3	-	_	PUNCT	_	_	2	punct	_	_
+4	ils	_	PRON	_	_	0	root	_	_
+5	?	_	PUNCT	_	_	4	punct	_	_
+
+
+
+# text = On:<PRON> passe:<VERB> à:<ADP> proximité:<NOUN> d’:<ADP> une:<DET> ville:<NOUN> avec:<ADP> deux:<NUM> minarets:<NOUN> .:<PUNCT>
+# analyses = 136
+# parsetree = (Utt (Utt (QS (IP On) (VP (V2 passe) (NP_obl (Prep à) (NP (NP (CN (N proximité))) (NP_obl (Prep 'd’') (NP (NP (Det une) (N ville)) (NP_obl (Prep avec) (NP (Num (Card deux)) (NP (CN (N minarets)))))))))))) (Punct '.'))
+1	On	_	PRON	_	_	2	nsubj	_	_
+2	passe	_	VERB	_	_	0	root	_	_
+3	à	_	ADP	_	_	4	case	_	_
+4	proximité	_	NOUN	_	_	2	obl	_	_
+5	d’	_	ADP	_	_	7	case	_	_
+6	une	_	DET	_	_	7	det	_	_
+7	ville	_	NOUN	_	_	4	nmod	_	_
+8	avec	_	ADP	_	_	10	case	_	_
+9	deux	_	NUM	_	_	10	nummod	_	_
+10	minarets	_	NOUN	_	_	7	nmod	_	_
+11	.	_	PUNCT	_	_	2	punct	_	_
+
+
+
+# text = Je:<PRON> n’:<ADV> étais:<AUX> qu’:<ADV> un:<DET> garçon:<NOUN> avec:<ADP> les:<DET> chaussures:<NOUN> couvertes:<ADJ> de:<ADP> boue:<NOUN> .:<PUNCT>
+# analyses = 176
+# parsetree = (Utt (Utt (NP (NP (NP (Pron Je)) (SC (QS (IAdv 'n’') (cop étais) (neg 'qu’') (NP (NP (Det un) (N garçon)) (NP_obl (Prep avec) (NP (Det les) (N chaussures)))) (Comp (AP (A couvertes)))))) (NP_obl (Prep de) (NP (CN (N boue)))))) (Punct '.'))
+1	Je	_	PRON	_	_	0	root	_	_
+2	n’	_	ADV	_	_	10	advmod	_	_
+3	étais	_	AUX	_	_	10	cop	_	_
+4	qu’	_	ADV	_	_	10	nsubj	_	_
+5	un	_	DET	_	_	6	det	_	_
+6	garçon	_	NOUN	_	_	10	advmod	_	_
+7	avec	_	ADP	_	_	9	case	_	_
+8	les	_	DET	_	_	9	det	_	_
+9	chaussures	_	NOUN	_	_	6	nmod	_	_
+10	couvertes	_	ADJ	_	_	1	acl	_	_
+11	de	_	ADP	_	_	12	case	_	_
+12	boue	_	NOUN	_	_	1	nmod	_	_
+13	.	_	PUNCT	_	_	1	punct	_	_
+
+
+
+# text = La:<DET> police:<NOUN> routière:<ADJ> de:<ADP> Shenzhen:<PROPN> a:<AUX> opté:<VERB> pour:<ADP> des:<DET> pénalités:<NOUN> inhabituelles:<ADJ> dans:<ADP> le:<DET> passé:<NOUN> .:<PUNCT>
+# analyses = 2296
+# parsetree = (Utt (Utt (QS (IP (IDet La) (CN (CN (N police)) (AP (AP (A routière)) (NP_obl (Prep de) (NP (PN Shenzhen)))))) (aux a) (VP (V2 opté) (NP_obl (Prep pour) (NP (Det des) (CN (CN (N pénalités)) (AP (AP (A inhabituelles)) (NP_obl (Prep dans) (NP (Det le) (N passé)))))))))) (Punct '.'))
+1	La	_	DET	_	_	2	det	_	_
+2	police	_	NOUN	_	_	7	nsubj	_	_
+3	routière	_	ADJ	_	_	2	amod	_	_
+4	de	_	ADP	_	_	5	case	_	_
+5	Shenzhen	_	PROPN	_	_	3	nmod	_	_
+6	a	_	AUX	_	_	7	aux	_	_
+7	opté	_	VERB	_	_	0	root	_	_
+8	pour	_	ADP	_	_	10	case	_	_
+9	des	_	DET	_	_	10	det	_	_
+10	pénalités	_	NOUN	_	_	7	obl	_	_
+11	inhabituelles	_	ADJ	_	_	10	amod	_	_
+12	dans	_	ADP	_	_	14	case	_	_
+13	le	_	DET	_	_	14	det	_	_
+14	passé	_	NOUN	_	_	11	nmod	_	_
+15	.	_	PUNCT	_	_	7	punct	_	_
+
+
+
+# text = L':<DET> étude:<NOUN> de:<ADP> les:<DET> volcans:<NOUN> s':<PRON> appelle:<VERB> la:<DET> volcanologie:<NOUN> ,:<PUNCT> ou:<CCONJ> parfois:<ADV> vulcanologie:<NOUN> .:<PUNCT>
+# analyses = 272
+# parsetree = (Utt (Utt (NP (NP (Det L') (N étude)) (NP_obl (Prep de) (NP (NP (Det les) (N volcans)) (RS (RP s') (VP (V2 appelle) (NP (ListNP (NP (Det la) (N volcanologie))) (NP_conj (comma ',') (Conj ou) (NP (Predet parfois) (NP (CN (N vulcanologie)))))))))))) (Punct '.'))
+1	L'	_	DET	_	_	2	det	_	_
+2	étude	_	NOUN	_	_	0	root	_	_
+3	de	_	ADP	_	_	5	case	_	_
+4	les	_	DET	_	_	5	det	_	_
+5	volcans	_	NOUN	_	_	2	nmod	_	_
+6	s'	_	PRON	_	_	7	nsubj	_	_
+7	appelle	_	VERB	_	_	5	acl:relcl	_	_
+8	la	_	DET	_	_	9	det	_	_
+9	volcanologie	_	NOUN	_	_	7	obj	_	_
+10	,	_	PUNCT	_	_	13	punct	_	_
+11	ou	_	CCONJ	_	_	13	cc	_	_
+12	parfois	_	ADV	_	_	13	det:predet	_	_
+13	vulcanologie	_	NOUN	_	_	9	conj	_	_
+14	.	_	PUNCT	_	_	2	punct	_	_
+
+
+
+# text = Ca:<PRON> a:<AUX> été:<AUX> mis:<VERB> en:<ADP> œuvre:<NOUN> au:<_> à:<ADP> le:<DET> large:<NOUN> de:<ADP> la:<DET> côte:<NOUN> de:<ADP> le:<DET> Mexique:<PROPN> d':<ADP> avril:<NOUN> à:<ADP> juin:<NOUN> .:<PUNCT>
+# analyses = 0
+# parsetree = (Chunks (Comp (NP (NP (NP (Pron Ca)) (SC (S_that (S (NP (Det a)) (cop été) (VP_pass (V2 mis)))))) (NP_obl (Prep en) (NP (CN (N œuvre)))))) (Str au) (Comp (NP_obl (Prep à) (NP (NP (Det le) (CN (N large))) (NP_obl (Prep de) (NP (NP (Det la) (CN (N côte))) (NP_obl (Prep de) (NP (Det le)))))))) (Utt (Utt (NP (NP (PN Mexique)) (NP_obl (Prep d') (NP (NP (CN (N avril))) (NP_obl (Prep à) (NP (CN (N juin)))))))) (Punct '.')))
+1	Ca	_	PRON	_	_	16	dep	_	_
+2	a	_	DET	_	_	4	nsubj:pass	_	_
+3	été	_	AUX	_	_	4	aux:pass	_	_
+4	mis	_	VERB	_	_	1	acl	_	_
+5	en	_	ADP	_	_	6	case	_	_
+6	œuvre	_	NOUN	_	_	1	nmod	_	_
+7	au	_	X	_	_	16	dep	_	_
+8	à	_	ADP	_	_	10	case	_	_
+9	le	_	DET	_	_	10	det	_	_
+10	large	_	NOUN	_	_	16	dep	_	_
+11	de	_	ADP	_	_	13	case	_	_
+12	la	_	DET	_	_	13	det	_	_
+13	côte	_	NOUN	_	_	10	nmod	_	_
+14	de	_	ADP	_	_	15	case	_	_
+15	le	_	DET	_	_	13	nmod	_	_
+16	Mexique	_	PROPN	_	_	0	root	_	_
+17	d'	_	ADP	_	_	18	case	_	_
+18	avril	_	NOUN	_	_	16	nmod	_	_
+19	à	_	ADP	_	_	20	case	_	_
+20	juin	_	NOUN	_	_	18	nmod	_	_
+21	.	_	PUNCT	_	_	16	punct	_	_
+
+
+
+# text = Sa:<DET> voix:<NOUN> a:<AUX> littéralement:<ADV> fait:<VERB> le:<DET> tour:<NOUN> de:<ADP> le:<DET> monde:<NOUN> ,:<PUNCT> dit:<VERB> Leive:<PROPN> .:<PUNCT>
+# analyses = 304
+# parsetree = (Utt (Utt (QS (IP (IDet Sa) (CN (N voix))) (aux a) (neg littéralement) (VP (V3 fait) (NP (NP (Det le) (N tour)) (NP_obl (Prep de) (NP (NP (Det le) (N monde)) (comma ',') (VP_pass (V2 dit))))) (NP (PN Leive))))) (Punct '.'))
+1	Sa	_	DET	_	_	2	det	_	_
+2	voix	_	NOUN	_	_	5	nsubj	_	_
+3	a	_	AUX	_	_	5	aux	_	_
+4	littéralement	_	ADV	_	_	5	advmod	_	_
+5	fait	_	VERB	_	_	0	root	_	_
+6	le	_	DET	_	_	7	det	_	_
+7	tour	_	NOUN	_	_	5	iobj	_	_
+8	de	_	ADP	_	_	10	case	_	_
+9	le	_	DET	_	_	10	det	_	_
+10	monde	_	NOUN	_	_	7	nmod	_	_
+11	,	_	PUNCT	_	_	10	punct	_	_
+12	dit	_	VERB	_	_	10	acl	_	_
+13	Leive	_	PROPN	_	_	5	obj	_	_
+14	.	_	PUNCT	_	_	5	punct	_	_
+
+
+
+# text = Un:<DET> témoin:<NOUN> a:<AUX> dit:<VERB> à:<ADP> la:<DET> police:<NOUN> que:<SCONJ> la:<DET> victime:<NOUN> avait:<AUX> attaqué:<VERB> le:<DET> suspect:<NOUN> en:<ADP> avril:<NOUN> .:<PUNCT>
+# analyses = 42432
+# parsetree = (Utt (Utt (S (NP (NP (Det Un)) (SC (S_that (S (NP (CN (N témoin))) (VP (aux a)))))) (VP (V2 dit) (NP_obl (Prep à) (NP (NP (NP (Det la)) (SC (S_that (S (NP (NP (CN (N police))) (SC (S_that (that que) (S (NP (Det la) (CN (N victime))) (VP (aux avait)))))) (VP (V2 attaqué) (NP (Det le) (CN (N suspect)))))))) (NP_obl (Prep en) (NP (CN (N avril))))))))) (Punct '.'))
+1	Un	_	DET	_	_	4	nsubj	_	_
+2	témoin	_	NOUN	_	_	3	nsubj	_	_
+3	a	_	AUX	_	_	1	acl	_	_
+4	dit	_	VERB	_	_	0	root	_	_
+5	à	_	ADP	_	_	6	case	_	_
+6	la	_	DET	_	_	4	obl	_	_
+7	police	_	NOUN	_	_	12	nsubj	_	_
+8	que	_	SCONJ	_	_	11	mark	_	_
+9	la	_	DET	_	_	10	det	_	_
+10	victime	_	NOUN	_	_	11	nsubj	_	_
+11	avait	_	AUX	_	_	7	acl	_	_
+12	attaqué	_	VERB	_	_	6	acl	_	_
+13	le	_	DET	_	_	14	det	_	_
+14	suspect	_	NOUN	_	_	12	obj	_	_
+15	en	_	ADP	_	_	16	case	_	_
+16	avril	_	NOUN	_	_	6	nmod	_	_
+17	.	_	PUNCT	_	_	4	punct	_	_
+
+
+
+# text = C':<PRON> est:<AUX> particulièrement:<ADV> évident:<ADJ> quand:<SCONJ> le:<DET> prénom:<NOUN> d':<ADP> une:<DET> célébrité:<NOUN> est:<AUX> rare:<ADJ> à:<ADP> l':<DET> origine:<NOUN> .:<PUNCT>
+# analyses = 60
+# parsetree = (Utt (Utt (S (S (NP (Pron C')) (cop est) (AdV particulièrement) (Comp (AP (A évident)))) (S_sub (Subj quand) (S (NP (NP (Det le) (CN (N prénom))) (NP_obl (Prep d') (NP (Det une) (CN (N célébrité))))) (cop est) (Comp (AP (AP (A rare)) (NP_obl (Prep à) (NP (Det l') (CN (N origine)))))))))) (Punct '.'))
+1	C'	_	PRON	_	_	4	nsubj	_	_
+2	est	_	AUX	_	_	4	cop	_	_
+3	particulièrement	_	ADV	_	_	4	advmod	_	_
+4	évident	_	ADJ	_	_	0	root	_	_
+5	quand	_	SCONJ	_	_	12	mark	_	_
+6	le	_	DET	_	_	7	det	_	_
+7	prénom	_	NOUN	_	_	12	nsubj	_	_
+8	d'	_	ADP	_	_	10	case	_	_
+9	une	_	DET	_	_	10	det	_	_
+10	célébrité	_	NOUN	_	_	7	nmod	_	_
+11	est	_	AUX	_	_	12	cop	_	_
+12	rare	_	ADJ	_	_	4	advcl	_	_
+13	à	_	ADP	_	_	15	case	_	_
+14	l'	_	DET	_	_	15	det	_	_
+15	origine	_	NOUN	_	_	12	nmod	_	_
+16	.	_	PUNCT	_	_	4	punct	_	_
+
+
+
+# text = Cette:<DET> conjoncture:<NOUN> n’:<ADV> a:<AUX> en:<ADP> rien:<PRON> entravé:<VERB> les:<DET> investisseurs:<NOUN> qui:<PRON> ont:<AUX> afflué:<VERB> vers:<ADP> ces:<DET> fonds:<NOUN> .:<PUNCT>
+# analyses = 24146
+# parsetree = (Utt (Utt (S (NP (Det Cette) (CN (N conjoncture))) (VP (AdV 'n’') (VP (VP (aux a)) (NP_obl (Prep en) (NP (NP (NP (NP (Pron rien)) (VP_pass (V2 entravé))) (SC (S_that (S (NP (NP (Det les) (CN (N investisseurs))) (SC (S_that (S (NP (Pron qui)) (VP (aux ont)))))) (VP (V afflué)))))) (NP_obl (Prep vers) (NP (Det ces) (CN (N fonds)))))))))) (Punct '.'))
+1	Cette	_	DET	_	_	2	det	_	_
+2	conjoncture	_	NOUN	_	_	4	nsubj	_	_
+3	n’	_	ADV	_	_	4	advmod	_	_
+4	a	_	AUX	_	_	0	root	_	_
+5	en	_	ADP	_	_	6	case	_	_
+6	rien	_	PRON	_	_	4	obl	_	_
+7	entravé	_	VERB	_	_	6	acl	_	_
+8	les	_	DET	_	_	9	det	_	_
+9	investisseurs	_	NOUN	_	_	12	nsubj	_	_
+10	qui	_	PRON	_	_	11	nsubj	_	_
+11	ont	_	AUX	_	_	9	acl	_	_
+12	afflué	_	VERB	_	_	6	acl	_	_
+13	vers	_	ADP	_	_	15	case	_	_
+14	ces	_	DET	_	_	15	det	_	_
+15	fonds	_	NOUN	_	_	6	nmod	_	_
+16	.	_	PUNCT	_	_	4	punct	_	_
+
+
+
+# text = Cette:<DET> discordance:<NOUN> entre:<ADP> les:<DET> résultats:<NOUN> économiques:<ADJ> et:<CCONJ> le:<DET> discours:<NOUN> politique:<ADJ> est:<AUX> bien:<ADV> connu:<ADJ> ,:<PUNCT> ou:<CCONJ> devrait:<VERB> l':<PRON> être:<AUX> .:<PUNCT>
+# analyses = 0
+# parsetree = (Chunks (S_front (S (NP (NP (Det Cette) (CN (N discordance))) (NP_obl (Prep entre) (NP (ListNP (NP (Det les) (CN (CN (N résultats)) (AP (A économiques))))) (NP_conj (Conj et) (NP (Det le) (CN (CN (N discours)) (AP (A politique)))))))) (cop est) (AdV bien) (Comp (AP (A connu)))) (comma ',')) (Utt (Utt (Conj ou) (Utt (Imp (VP (VS devrait) (S_that (S (NP (Pron l')) (VP (aux être)))))))) (Punct '.')))
+1	Cette	_	DET	_	_	2	det	_	_
+2	discordance	_	NOUN	_	_	13	nsubj	_	_
+3	entre	_	ADP	_	_	5	case	_	_
+4	les	_	DET	_	_	5	det	_	_
+5	résultats	_	NOUN	_	_	2	nmod	_	_
+6	économiques	_	ADJ	_	_	5	amod	_	_
+7	et	_	CCONJ	_	_	9	cc	_	_
+8	le	_	DET	_	_	9	det	_	_
+9	discours	_	NOUN	_	_	5	conj	_	_
+10	politique	_	ADJ	_	_	9	amod	_	_
+11	est	_	AUX	_	_	13	cop	_	_
+12	bien	_	ADV	_	_	13	advmod	_	_
+13	connu	_	ADJ	_	_	16	dep	_	_
+14	,	_	PUNCT	_	_	13	punct	_	_
+15	ou	_	CCONJ	_	_	16	cc	_	_
+16	devrait	_	VERB	_	_	0	root	_	_
+17	l'	_	PRON	_	_	18	nsubj	_	_
+18	être	_	AUX	_	_	16	ccomp	_	_
+19	.	_	PUNCT	_	_	16	punct	_	_
+
+
+
+# text = L':<DET> étude:<NOUN> de:<ADP> faisabilité:<NOUN> estime:<VERB> qu':<SCONJ> il:<PRON> faudrait:<VERB> environ:<ADV> quatre:<NUM> minutes:<NOUN> aux:<_> à:<ADP> les:<DET> passagers:<NOUN> pour:<ADP> traverser:<VERB> le:<DET> Potomac:<PROPN> en:<ADP> gondole:<NOUN> .:<PUNCT>
+# analyses = 0
+# parsetree = (Chunks (Comp (NP (NP (Det L') (CN (N étude))) (NP_obl (Prep de) (NP (NP (NP (CN (N faisabilité))) (VP_pass (V2 estime))) (SC (S_that (that qu') (S (NP (Pron il)) (VP (V2 faudrait) (NP (Predet environ) (NP (Num (Card quatre)) (NP (CN (N minutes))))))))))))) (Str aux) (Comp (NP_obl (Prep à) (NP (Det les) (CN (N passagers))))) (Prep pour) (Utt (Utt (Imp (VP (V3 traverser) (NP (Det le)) (NP (NP (PN Potomac)) (NP_obl (Prep en) (NP (CN (N gondole)))))))) (Punct '.')))
+1	L'	_	DET	_	_	2	det	_	_
+2	étude	_	NOUN	_	_	17	dep	_	_
+3	de	_	ADP	_	_	4	case	_	_
+4	faisabilité	_	NOUN	_	_	2	nmod	_	_
+5	estime	_	VERB	_	_	4	acl	_	_
+6	qu'	_	SCONJ	_	_	8	mark	_	_
+7	il	_	PRON	_	_	8	nsubj	_	_
+8	faudrait	_	VERB	_	_	4	acl	_	_
+9	environ	_	ADV	_	_	11	det:predet	_	_
+10	quatre	_	NUM	_	_	11	nummod	_	_
+11	minutes	_	NOUN	_	_	8	obj	_	_
+12	aux	_	X	_	_	17	dep	_	_
+13	à	_	ADP	_	_	15	case	_	_
+14	les	_	DET	_	_	15	det	_	_
+15	passagers	_	NOUN	_	_	17	dep	_	_
+16	pour	_	ADP	_	_	17	dep	_	_
+17	traverser	_	VERB	_	_	0	root	_	_
+18	le	_	DET	_	_	17	iobj	_	_
+19	Potomac	_	PROPN	_	_	17	obj	_	_
+20	en	_	ADP	_	_	21	case	_	_
+21	gondole	_	NOUN	_	_	19	nmod	_	_
+22	.	_	PUNCT	_	_	17	punct	_	_
+
+
+
+# text = Il:<PRON> collectionnait:<VERB> de:<ADP> les:<DET> cartes:<NOUN> et:<CCONJ> les:<PRON> échangeait:<VERB> avec:<ADP> les:<DET> autres:<ADJ> garçons:<NOUN>
+# analyses = 221
+# parsetree = (Utt (S (SC (QS (IP Il) (VP (V2 collectionnait) (NP_obl (Prep de) (NP (ListNP (NP (Det les) (N cartes))) (NP_conj (Conj et) (NP (Pron les)))))))) (VP (V2 échangeait) (NP_obl (Prep avec) (NP (Det les) (CN (AP (A autres)) (CN (N garçons))))))))
+1	Il	_	PRON	_	_	2	nsubj	_	_
+2	collectionnait	_	VERB	_	_	8	csubj	_	_
+3	de	_	ADP	_	_	5	case	_	_
+4	les	_	DET	_	_	5	det	_	_
+5	cartes	_	NOUN	_	_	2	obl	_	_
+6	et	_	CCONJ	_	_	7	cc	_	_
+7	les	_	PRON	_	_	5	conj	_	_
+8	échangeait	_	VERB	_	_	0	root	_	_
+9	avec	_	ADP	_	_	12	case	_	_
+10	les	_	DET	_	_	12	det	_	_
+11	autres	_	ADJ	_	_	12	amod	_	_
+12	garçons	_	NOUN	_	_	8	obl	_	_
+
+
+
+# text = ce:<DET> crime:<NOUN> est:<AUX> passible:<ADJ> de:<ADP> cinq:<NUM> ans:<NOUN> de:<ADP> prison:<NOUN>
+# analyses = 88
+# parsetree = (Utt (S (NP (Det ce) (N crime)) (cop est) (Comp (AP (AP (A passible)) (NP_obl (Prep de) (NP (NP (Num (Card cinq)) (NP (CN (N ans)))) (NP_obl (Prep de) (NP (CN (N prison))))))))))
+1	ce	_	DET	_	_	2	det	_	_
+2	crime	_	NOUN	_	_	4	nsubj	_	_
+3	est	_	AUX	_	_	4	cop	_	_
+4	passible	_	ADJ	_	_	0	root	_	_
+5	de	_	ADP	_	_	7	case	_	_
+6	cinq	_	NUM	_	_	7	nummod	_	_
+7	ans	_	NOUN	_	_	4	nmod	_	_
+8	de	_	ADP	_	_	9	case	_	_
+9	prison	_	NOUN	_	_	7	nmod	_	_
+
+
+
+# text = Les:<DET> nouvelles:<NOUN> ont:<AUX> été:<AUX> portées:<VERB> dans:<ADP> tous:<ADJ> les:<DET> villages:<NOUN> de:<ADP> la:<DET> province:<NOUN>
+# analyses = 0
+# parsetree = (Chunks (RS (NP (NP (Det Les)) (SC (S_that (S (SC (S_that (S (NP (CN (N nouvelles))) (VP (aux ont))))) (VP (aux été)))))) (VPSlash (VP (V portées)) (Prep dans))) (A tous) (Comp (NP (NP (Det les) (CN (N villages))) (NP_obl (Prep de) (NP (Det la) (CN (N province)))))))
+1	Les	_	DET	_	_	5	nsubj	_	_
+2	nouvelles	_	NOUN	_	_	3	nsubj	_	_
+3	ont	_	AUX	_	_	4	csubj	_	_
+4	été	_	AUX	_	_	1	acl	_	_
+5	portées	_	VERB	_	_	9	dep	_	_
+6	dans	_	ADP	_	_	5	case	_	_
+7	tous	_	ADJ	_	_	9	dep	_	_
+8	les	_	DET	_	_	9	det	_	_
+9	villages	_	NOUN	_	_	0	root	_	_
+10	de	_	ADP	_	_	12	case	_	_
+11	la	_	DET	_	_	12	det	_	_
+12	province	_	NOUN	_	_	9	nmod	_	_
+
+
+
+# text = Je:<PRON> porte:<VERB> ces:<DET> pensées:<NOUN> à:<ADP> l':<DET> arrière:<NOUN> de:<ADP> ma:<DET> tête:<NOUN>
+# analyses = 224
+# parsetree = (Utt (QS (IP Je) (VP (V2 porte) (NP (NP (Det ces) (N pensées)) (NP_obl (Prep à) (NP (NP (Det l') (N arrière)) (NP_obl (Prep de) (NP (Det ma) (N tête)))))))))
+1	Je	_	PRON	_	_	2	nsubj	_	_
+2	porte	_	VERB	_	_	0	root	_	_
+3	ces	_	DET	_	_	4	det	_	_
+4	pensées	_	NOUN	_	_	2	obj	_	_
+5	à	_	ADP	_	_	7	case	_	_
+6	l'	_	DET	_	_	7	det	_	_
+7	arrière	_	NOUN	_	_	4	nmod	_	_
+8	de	_	ADP	_	_	10	case	_	_
+9	ma	_	DET	_	_	10	det	_	_
+10	tête	_	NOUN	_	_	7	nmod	_	_
+
+
+
+# text = Adam:<PROPN> aurait:<AUX> été:<AUX> porté:<VERB> à:<ADP> la:<DET> vie:<NOUN> éternelle:<ADJ>
+# analyses = 8
+# parsetree = (Utt (S (NP (PN Adam)) (aux aurait) (cop été) (VP_pass (VP_pass (V2 porté)) (NP_obl (Prep à) (NP (Det la) (CN (CN (N vie)) (AP (A éternelle))))))))
+1	Adam	_	PROPN	_	_	4	nsubj:pass	_	_
+2	aurait	_	AUX	_	_	4	aux	_	_
+3	été	_	AUX	_	_	4	aux:pass	_	_
+4	porté	_	VERB	_	_	0	root	_	_
+5	à	_	ADP	_	_	7	case	_	_
+6	la	_	DET	_	_	7	det	_	_
+7	vie	_	NOUN	_	_	4	nmod	_	_
+8	éternelle	_	ADJ	_	_	7	amod	_	_
+
+
+
+# text = les:<DET> revêtements:<NOUN> avaient:<AUX> pourri:<VERB> et:<CCONJ> devaient:<VERB> être:<AUX> remplacés:<VERB>
+# analyses = 16
+# parsetree = (Utt (S (SC (QS (IP (IDet les) (CN (N revêtements))) (aux avaient) (VP (ListVP (VP (V pourri))) (VP_conj (Conj et) (VP (V devaient)))))) (cop être) (VP_pass (V2 remplacés))))
+1	les	_	DET	_	_	2	det	_	_
+2	revêtements	_	NOUN	_	_	4	nsubj	_	_
+3	avaient	_	AUX	_	_	4	aux	_	_
+4	pourri	_	VERB	_	_	8	csubj:pass	_	_
+5	et	_	CCONJ	_	_	6	cc	_	_
+6	devaient	_	VERB	_	_	4	conj	_	_
+7	être	_	AUX	_	_	8	aux:pass	_	_
+8	remplacés	_	VERB	_	_	0	root	_	_
+
+
+
+# text = Elle:<PRON> était:<AUX> furieuse:<ADJ> que:<SCONJ> cette:<DET> gamine:<NOUN> ose:<VERB> la:<PRON> ridiculiser:<VERB> devant:<ADP> toute:<ADJ> la:<DET> classe:<NOUN>
+# analyses = 0
+# parsetree = (Chunks (ListS (S (SC (S_that (S (S (NP (Pron Elle)) (cop était) (Comp (AP (A furieuse)))) (S_sub (Subj que) (S (NP (Det cette) (CN (N gamine))) (VP (V2 ose) (NP (Pron la)))))))) (VP (V ridiculiser)))) (Prep devant) (A toute) (Comp (NP (Det la) (CN (N classe)))))
+1	Elle	_	PRON	_	_	3	nsubj	_	_
+2	était	_	AUX	_	_	3	cop	_	_
+3	furieuse	_	ADJ	_	_	9	csubj	_	_
+4	que	_	SCONJ	_	_	7	mark	_	_
+5	cette	_	DET	_	_	6	det	_	_
+6	gamine	_	NOUN	_	_	7	nsubj	_	_
+7	ose	_	VERB	_	_	3	advcl	_	_
+8	la	_	PRON	_	_	7	obj	_	_
+9	ridiculiser	_	VERB	_	_	13	dep	_	_
+10	devant	_	ADP	_	_	13	dep	_	_
+11	toute	_	ADJ	_	_	13	dep	_	_
+12	la	_	DET	_	_	13	det	_	_
+13	classe	_	NOUN	_	_	0	root	_	_
+
+
+
+# text = le:<DET> glissement:<NOUN> de:<ADP> terrain:<NOUN> qu':<PRON> il:<PRON> a:<AUX> eu:<VERB> au:<_> à:<ADP> le:<DET> collège:<NOUN> électoral:<ADJ> a:<ADP> obscurci:<ADV> l':<DET> étroitesse:<NOUN> d':<ADP> une:<DET> victoire:<NOUN> basée:<VERB> sur:<ADP> seulement:<ADV> 43:<NUM> %:<SYM> de:<ADP> le:<DET> vote:<NOUN> populaire:<ADJ>
+# analyses = 0
+# parsetree = (Chunks (Comp (NP (NP (Det le) (CN (N glissement))) (NP_obl (Prep de) (NP (NP (CN (N terrain))) (SC (S_that (S (NP (NP (Pron qu')) (SC (S_that (S (NP (Pron il)) (VP (aux a)))))) (VP (V eu))))))))) (Str au) (Comp (NP_obl (Prep à) (NP (Det le) (CN (CN (N collège)) (AP (AP (A électoral)) (NP_obl (Prep a) (NP (NP (Predet obscurci) (NP (Det l') (CN (N étroitesse)))) (NP_obl (Prep d') (NP (NP (NP (Det une)) (SC (S_that (S (NP (CN (N victoire))) (VP (V basée)))))) (NP_obl (Prep sur) (NP (Predet seulement) (NP (Num (Card '43')))))))))))))) (Symb '%') (Comp (NP_obl (Prep de) (NP (Det le) (CN (CN (N vote)) (AP (A populaire)))))))
+1	le	_	DET	_	_	2	det	_	_
+2	glissement	_	NOUN	_	_	28	dep	_	_
+3	de	_	ADP	_	_	4	case	_	_
+4	terrain	_	NOUN	_	_	2	nmod	_	_
+5	qu'	_	PRON	_	_	8	nsubj	_	_
+6	il	_	PRON	_	_	7	nsubj	_	_
+7	a	_	AUX	_	_	5	acl	_	_
+8	eu	_	VERB	_	_	4	acl	_	_
+9	au	_	X	_	_	28	dep	_	_
+10	à	_	ADP	_	_	12	case	_	_
+11	le	_	DET	_	_	12	det	_	_
+12	collège	_	NOUN	_	_	28	dep	_	_
+13	électoral	_	ADJ	_	_	12	amod	_	_
+14	a	_	ADP	_	_	17	case	_	_
+15	obscurci	_	ADV	_	_	17	det:predet	_	_
+16	l'	_	DET	_	_	17	det	_	_
+17	étroitesse	_	NOUN	_	_	13	nmod	_	_
+18	d'	_	ADP	_	_	19	case	_	_
+19	une	_	DET	_	_	17	nmod	_	_
+20	victoire	_	NOUN	_	_	21	nsubj	_	_
+21	basée	_	VERB	_	_	19	acl	_	_
+22	sur	_	ADP	_	_	24	case	_	_
+23	seulement	_	ADV	_	_	24	det:predet	_	_
+24	43	_	NUM	_	_	19	nmod	_	_
+25	%	_	SYM	_	_	28	dep	_	_
+26	de	_	ADP	_	_	28	case	_	_
+27	le	_	DET	_	_	28	det	_	_
+28	vote	_	NOUN	_	_	0	root	_	_
+29	populaire	_	ADJ	_	_	28	amod	_	_
+
+
+
+# text = Les:<DET> troupes:<NOUN> américaines:<ADJ> portent:<VERB> désormais:<ADV> de:<ADP> l':<DET> atropine:<NOUN> et:<CCONJ> de:<ADP> les:<DET> auto-injecteurs:<NOUN> dans:<ADP> leurs:<DET> trousses:<NOUN> de:<ADP> premiers:<NUM> soins:<NOUN> à:<ADP> utiliser:<VERB> en:<ADP> cas:<NOUN> d':<ADP> empoisonnement:<NOUN> à:<ADP> les:<DET> agents:<NOUN> neurotoxiques:<ADJ> organophosphorés:<ADJ>
+# analyses = 15360
+# parsetree = (Utt (S (NP (NP (Det Les)) (RS (NP (CN (CN (N troupes)) (AP (A américaines)))) (VPSlash (VP (VP (VP (V portent)) (Adv désormais)) (NP_obl (ListNP_obl (NP_obl (Prep de) (NP (Det l') (CN (N atropine))))) (Adv_conj (Conj et) (NP_obl (Prep de) (NP (NP (Det les) (CN (N 'auto-injecteurs'))) (NP_obl (Prep dans) (NP (NP (Det leurs) (CN (N trousses))) (NP_obl (Prep de) (NP (Num (Card premiers)) (NP (CN (N soins)))))))))))) (Prep à)))) (VP (V2 utiliser) (NP_obl (Prep en) (NP (NP (CN (N cas))) (NP_obl (Prep d') (NP (NP (CN (N empoisonnement))) (NP_obl (Prep à) (NP (Det les) (CN (CN (CN (N agents)) (AP (A neurotoxiques))) (AP (A organophosphorés))))))))))))
+1	Les	_	DET	_	_	20	nsubj	_	_
+2	troupes	_	NOUN	_	_	4	nsubj	_	_
+3	américaines	_	ADJ	_	_	2	amod	_	_
+4	portent	_	VERB	_	_	1	acl:relcl	_	_
+5	désormais	_	ADV	_	_	4	advmod	_	_
+6	de	_	ADP	_	_	8	case	_	_
+7	l'	_	DET	_	_	8	det	_	_
+8	atropine	_	NOUN	_	_	4	obl	_	_
+9	et	_	CCONJ	_	_	12	cc	_	_
+10	de	_	ADP	_	_	12	case	_	_
+11	les	_	DET	_	_	12	det	_	_
+12	auto-injecteurs	_	NOUN	_	_	8	conj	_	_
+13	dans	_	ADP	_	_	15	case	_	_
+14	leurs	_	DET	_	_	15	det	_	_
+15	trousses	_	NOUN	_	_	12	nmod	_	_
+16	de	_	ADP	_	_	18	case	_	_
+17	premiers	_	NUM	_	_	18	nummod	_	_
+18	soins	_	NOUN	_	_	15	nmod	_	_
+19	à	_	ADP	_	_	4	case	_	_
+20	utiliser	_	VERB	_	_	0	root	_	_
+21	en	_	ADP	_	_	22	case	_	_
+22	cas	_	NOUN	_	_	20	obl	_	_
+23	d'	_	ADP	_	_	24	case	_	_
+24	empoisonnement	_	NOUN	_	_	22	nmod	_	_
+25	à	_	ADP	_	_	27	case	_	_
+26	les	_	DET	_	_	27	det	_	_
+27	agents	_	NOUN	_	_	24	nmod	_	_
+28	neurotoxiques	_	ADJ	_	_	27	amod	_	_
+29	organophosphorés	_	ADJ	_	_	27	amod	_	_
+
+
+
+# text = il:<PRON> peut:<VERB> accomplir:<VERB> par:<ADP> la:<DET> ruse:<NOUN> à:<ADP> long:<ADJ> terme:<NOUN> ce:<PRON> qu':<PRON> il:<PRON> ne:<ADV> peut:<VERB> pas:<ADV> faire:<VERB> par:<ADP> la:<DET> force:<NOUN> et:<CCONJ> la:<DET> violence:<NOUN> à:<ADP> court:<ADJ> terme:<NOUN>
+# analyses = 196872
+# parsetree = (Utt (S (NP (Pron il)) (VP (VP (V peut) (V accomplir)) (NP_obl (Prep par) (NP (NP (Det la) (CN (N ruse))) (NP_obl (Prep à) (NP (NP (NP (CN (AP (A long)) (CN (N terme)))) (SC (S_that (S (NP (NP (Pron ce)) (SC (QS (IP qu') (NP (Pron il)) (neg ne) (VPSlash (V2 peut))))) (VP (AdV pas) (VP (V faire))))))) (NP_obl (Prep par) (NP (NP (ListNP (NP (Det la) (CN (N force)))) (NP_conj (Conj et) (NP (Det la) (CN (N violence))))) (NP_obl (Prep à) (NP (CN (AP (A court)) (CN (N terme))))))))))))))
+1	il	_	PRON	_	_	2	nsubj	_	_
+2	peut	_	VERB	_	_	0	root	_	_
+3	accomplir	_	VERB	_	_	2	xcomp	_	_
+4	par	_	ADP	_	_	6	case	_	_
+5	la	_	DET	_	_	6	det	_	_
+6	ruse	_	NOUN	_	_	2	obl	_	_
+7	à	_	ADP	_	_	9	case	_	_
+8	long	_	ADJ	_	_	9	amod	_	_
+9	terme	_	NOUN	_	_	6	nmod	_	_
+10	ce	_	PRON	_	_	16	nsubj	_	_
+11	qu'	_	PRON	_	_	14	obj	_	_
+12	il	_	PRON	_	_	14	nsubj	_	_
+13	ne	_	ADV	_	_	14	advmod	_	_
+14	peut	_	VERB	_	_	10	acl	_	_
+15	pas	_	ADV	_	_	16	advmod	_	_
+16	faire	_	VERB	_	_	9	acl	_	_
+17	par	_	ADP	_	_	19	case	_	_
+18	la	_	DET	_	_	19	det	_	_
+19	force	_	NOUN	_	_	9	nmod	_	_
+20	et	_	CCONJ	_	_	22	cc	_	_
+21	la	_	DET	_	_	22	det	_	_
+22	violence	_	NOUN	_	_	19	conj	_	_
+23	à	_	ADP	_	_	25	case	_	_
+24	court	_	ADJ	_	_	25	amod	_	_
+25	terme	_	NOUN	_	_	19	nmod	_	_
+
+
+
+# text = on:<PRON> a:<AUX> dit:<VERB> que:<SCONJ> seule:<ADJ> une:<DET> société:<NOUN> hiérarchisée:<ADJ> avec:<ADP> une:<DET> classe:<NOUN> de:<ADP> loisirs:<NOUN> au:<_> à:<ADP> le:<DET> sommet:<NOUN> peut:<VERB> produire:<VERB> de:<ADP> les:<DET> œuvres:<NOUN> d':<ADP> art:<NOUN>
+# analyses = 0
+# parsetree = (Chunks (Comp (NP (NP (Pron on)) (SC (S_that (S (NP (Det a)) (VP (V dit))))))) (Subj que) (A seule) (Comp (NP (Det une) (CN (CN (N société)) (AP (AP (A hiérarchisée)) (NP_obl (Prep avec) (NP (NP (Det une) (CN (N classe))) (NP_obl (Prep de) (NP (CN (N loisirs)))))))))) (Str au) (Comp (NP_obl (Prep à) (NP (NP (NP (Det le)) (SC (S_that (S (NP (CN (N sommet))) (VP (V peut) (V produire)))))) (NP_obl (Prep de) (NP (NP (Det les) (CN (N œuvres))) (NP_obl (Prep d') (NP (CN (N art))))))))))
+1	on	_	PRON	_	_	16	dep	_	_
+2	a	_	DET	_	_	3	nsubj	_	_
+3	dit	_	VERB	_	_	1	acl	_	_
+4	que	_	SCONJ	_	_	16	dep	_	_
+5	seule	_	ADJ	_	_	16	dep	_	_
+6	une	_	DET	_	_	7	det	_	_
+7	société	_	NOUN	_	_	16	dep	_	_
+8	hiérarchisée	_	ADJ	_	_	7	amod	_	_
+9	avec	_	ADP	_	_	11	case	_	_
+10	une	_	DET	_	_	11	det	_	_
+11	classe	_	NOUN	_	_	8	nmod	_	_
+12	de	_	ADP	_	_	13	case	_	_
+13	loisirs	_	NOUN	_	_	11	nmod	_	_
+14	au	_	X	_	_	16	dep	_	_
+15	à	_	ADP	_	_	16	case	_	_
+16	le	_	DET	_	_	0	root	_	_
+17	sommet	_	NOUN	_	_	18	nsubj	_	_
+18	peut	_	VERB	_	_	16	acl	_	_
+19	produire	_	VERB	_	_	18	xcomp	_	_
+20	de	_	ADP	_	_	22	case	_	_
+21	les	_	DET	_	_	22	det	_	_
+22	œuvres	_	NOUN	_	_	16	nmod	_	_
+23	d'	_	ADP	_	_	24	case	_	_
+24	art	_	NOUN	_	_	22	nmod	_	_
+
+
+
+# text = son:<DET> explication:<NOUN> ingénue:<ADJ> était:<AUX> qu':<PRON> il:<PRON> n':<ADV> aurait:<AUX> pas:<ADV> brûlé:<VERB> l':<DET> église:<NOUN> s':<SCONJ> il:<PRON> n':<ADV> avait:<AUX> pas:<ADV> pensé:<VERB> que:<SCONJ> l':<DET> évêque:<NOUN> s':<PRON> y:<PRON> trouvait:<VERB>
+# analyses = 0
+# parsetree = (Chunks (Comp (NP (NP (Det son)) (SC (S_that (S (NP (NP (CN (CN (N explication)) (AP (A ingénue)))) (SC (S_that (S (SC (QS (cop était) (NP (Pron qu')) (Comp (NP (Pron il))))) (VP (AdV n') (VP (aux aurait))))))) (VP (AdV pas) (VP (V2 brûlé) (NP (NP (Det l')) (SC (S_that (S (NP (NP (CN (N église))) (SC (S_that (that s') (S (NP (Pron il)) (VP (AdV n') (VP (aux avait))))))) (VP (AdV pas) (VP (V pensé)))))))))))))) (Subj que) (Comp (NP (NP (Det l') (CN (N évêque))) (SC (QS (IP s') (NP (Pron y)) (VPSlash (V2 trouvait)))))))
+1	son	_	DET	_	_	21	dep	_	_
+2	explication	_	NOUN	_	_	10	nsubj	_	_
+3	ingénue	_	ADJ	_	_	2	amod	_	_
+4	était	_	AUX	_	_	6	cop	_	_
+5	qu'	_	PRON	_	_	6	nsubj	_	_
+6	il	_	PRON	_	_	8	csubj	_	_
+7	n'	_	ADV	_	_	8	advmod	_	_
+8	aurait	_	AUX	_	_	2	acl	_	_
+9	pas	_	ADV	_	_	10	advmod	_	_
+10	brûlé	_	VERB	_	_	1	acl	_	_
+11	l'	_	DET	_	_	10	obj	_	_
+12	église	_	NOUN	_	_	18	nsubj	_	_
+13	s'	_	SCONJ	_	_	16	mark	_	_
+14	il	_	PRON	_	_	16	nsubj	_	_
+15	n'	_	ADV	_	_	16	advmod	_	_
+16	avait	_	AUX	_	_	12	acl	_	_
+17	pas	_	ADV	_	_	18	advmod	_	_
+18	pensé	_	VERB	_	_	11	acl	_	_
+19	que	_	SCONJ	_	_	21	dep	_	_
+20	l'	_	DET	_	_	21	det	_	_
+21	évêque	_	NOUN	_	_	0	root	_	_
+22	s'	_	PRON	_	_	24	obj	_	_
+23	y	_	PRON	_	_	24	nsubj	_	_
+24	trouvait	_	VERB	_	_	21	acl	_	_
+
+
+
