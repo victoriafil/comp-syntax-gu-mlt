@@ -12,8 +12,8 @@ concrete MicroLangFre of MicroLang = open MicroResFre in {
     S  = {s : Str} ;
     VP = {verb : Verb ; compl : Gender => Number => Str} ; 
     Comp = {s : Gender => Number => Str} ;
-    AP = Adjective ;
-    CN = Noun ; -- Number => Str ; g : Gender
+    AP = Adjective ; -- s : Gender => Number => Str
+    CN = Noun ; -- s: Number => Str ; g : Gender
 
     NP = {s : Case => Str ; a : NPAgreement ; g : Gender ; n : Number ; isPron : Bool} ;
     Pron = {s : Case => Str ; a : NPAgreement ; g : Gender ; n : Number} ;
@@ -23,7 +23,7 @@ concrete MicroLangFre of MicroLang = open MicroResFre in {
     V = Verb ; -- VForm => Str
     V2 = Verb2 ;
  
-    A = Adjective ;
+    A = Adjective ; -- Gender => Number => Str
     N = Noun ;
     Adv = {s : Str} ;
 
@@ -48,10 +48,15 @@ concrete MicroLangFre of MicroLang = open MicroResFre in {
       False => v2 } ;
       compl = case np.isPron of { 
       True => \\g,n => [] ; 
-      False => table { g => table { n => v2.cp ++ np.s ! Dat }} 
+      False => table { g => table { n => v2.cp ++ np.s ! Acc }} 
       }
      } ;
     
+    UseComp comp = {
+      verb = be_Verb ;   
+      compl = comp.s
+      } ;
+
     CompAP ap = {s = table {
         g => table {
             n => ap.s ! g ! n}
@@ -85,7 +90,7 @@ concrete MicroLangFre of MicroLang = open MicroResFre in {
 
     PositA a = a ;
 
-    PrepNP prep np = {s = prep.s ++ np.s ! Acc} ;
+    PrepNP prep np = {s = prep.s ++ np.s ! Dat} ;
     
     in_Prep = {s = "dans"} ;
     on_Prep = {s = "sur"} ;
